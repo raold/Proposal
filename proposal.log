@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2012.4.9)  11 APR 2012 23:23
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2012.4.9)  11 APR 2012 23:42
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -546,48 +546,36 @@ s, based on provider
  []
 
 [8] [9]
-\c@step=\count126
-\c@stepstart=\count127
-\c@stepstop=\count128
-\c@yearstart=\count129
-\c@yearstop=\count130
-\c@deltayears=\count131
-\xstart=\skip48
-\xstop=\skip49
-\unit=\skip50
-\timelinewidth=\skip51
-\timelinebox=\box62
- (./proposal.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 119--1
+Underfull \hbox (badness 10000) in paragraph at lines 119--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--1
+Underfull \hbox (badness 10000) in paragraph at lines 119--122
 
  []
 
-[10]) [11] (./proposal.aux) ) 
+(./proposal.bbl [10]) [11] (./proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 10189 strings out of 493763
- 195587 string characters out of 3144955
- 233200 words of memory out of 3000000
- 13270 multiletter control sequences out of 15000+200000
+ 10032 strings out of 493763
+ 192288 string characters out of 3144955
+ 232200 words of memory out of 3000000
+ 13113 multiletter control sequences out of 15000+200000
  10624 words of font info for 37 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 63i,8n,57p,1479b,620s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2010/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr17.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr9.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmti9.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmtt12.pfb>
-Output written on proposal.pdf (11 pages, 444190 bytes).
+ 63i,7n,57p,1479b,278s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2010/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2010/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2010/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2010/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2010/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2010/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2010/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt12.pfb>
+Output written on proposal.pdf (11 pages, 443214 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream
