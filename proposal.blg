@@ -1,49 +1,50 @@
-This is BibTeX, Version 0.99d (TeX Live 2010)
+This is BibTeX, Version 0.99d (TeX Live 2011)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: proposal.aux
 The style file: unsrt.bst
 Database file #1: Master.bib
 Warning--empty booktitle in Thompson2004The-Decade-of-H
 Warning--empty booktitle in Nielsen1994Enhancing-the-e
-You've used 22 entries,
+Warning--can't use both author and editor fields in Abras2004Encycolopeida-o
+You've used 36 entries,
             1791 wiz_defined-function locations,
-            607 strings with 8034 characters,
-and the built_in function-call counts, 5189 in all, are:
-= -- 468
-> -- 225
-< -- 5
-+ -- 84
-- -- 62
-* -- 355
-:= -- 831
-add.period$ -- 69
-call.type$ -- 22
-change.case$ -- 22
+            713 strings with 10505 characters,
+and the built_in function-call counts, 8841 in all, are:
+= -- 810
+> -- 359
+< -- 9
++ -- 134
+- -- 98
+* -- 608
+:= -- 1391
+add.period$ -- 116
+call.type$ -- 36
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 240
-empty$ -- 495
-format.name$ -- 62
-if$ -- 1181
+cite$ -- 39
+duplicate$ -- 416
+empty$ -- 859
+format.name$ -- 98
+if$ -- 2039
 int.to.chr$ -- 0
-int.to.str$ -- 22
-missing$ -- 22
-newline$ -- 113
-num.names$ -- 22
-pop$ -- 51
+int.to.str$ -- 36
+missing$ -- 37
+newline$ -- 183
+num.names$ -- 42
+pop$ -- 80
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 109
+skip$ -- 196
 stack$ -- 0
-substring$ -- 321
-swap$ -- 55
-text.length$ -- 5
+substring$ -- 567
+swap$ -- 104
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 47
-width$ -- 24
-write$ -- 250
-(There were 2 warnings)
+warning$ -- 3
+while$ -- 82
+width$ -- 38
+write$ -- 415
+(There were 3 warnings)

@@ -18,6 +18,19 @@ TG~Thompson and DJ~Brailer.
 \newblock U.S. Department of Health and Human Services, Office of the National
   Coordinator for Health Information Technology, 2004.
 
+\bibitem{Spicer2008Bytes-and-bites}
+R~Spicer.
+\newblock Bytes and bites--using computerized clinical records to improve
+  patient safety in general dental practice.
+\newblock {\em Dent Update}, 35(9):618--9, Nov 2008.
+
+\bibitem{Schleyer2011Advancing-oral}
+T~Schleyer, U~Mattsson, R~N\'{i}~R\'{i}ord\'{a}in, V~Brailo, M~Glick, RB~Zain,
+  and M~Jontell.
+\newblock Advancing oral medicine through informatics and information
+  technology: a proposed framework and strategy.
+\newblock {\em Oral Dis}, 17 Suppl 1:85--94, Apr 2011.
+
 \bibitem{Schleyer2006Clinical-Comput}
 TK~Schleyer, TP~Thyvalikakath, H~Spallek, MH~Torres-Urquidy, P~Hernandez, and
   J~Yuhaniak.
@@ -66,14 +79,19 @@ AF~Rose, JL~Schnipper, ER~Park, EG~Poon, Q~Li, and B~Middleton.
 
 \bibitem{John2003Questionnaire-s}
 J~John, D~Thomas, and D~Richards.
-\newblock Questionnaire survey on the use of computerisation in dental
-  practices across the thames valley region.
+\newblock Questionnaire survey on the use of computers in dental practices
+  across the thames valley region.
 \newblock {\em Br Dent J}, 195:585--590, 2003.
 
 \bibitem{Schleyer2004Why-integration}
 TK~Schleyer.
 \newblock Why integration is key for dental office technology.
 \newblock {\em J Am Dent Assoc}, 135:4S--10S, October 2004.
+
+\bibitem{Unthank2004Designing-your-}
+M~Unthank.
+\newblock Designing your office for technology.
+\newblock {\em J Am Dent Assoc}, 135:24S--29S, Oct 2004.
 
 \bibitem{Nygren1998Helping-clinici}
 E~Nygren, JC~Wyatt, and P~Wright.
@@ -100,11 +118,20 @@ DD~Salvucci, NA~Taatgen, and PB~Jelmer.
   factors in computing systems}, CHI '09--Boston, MA, pages 1819--28, New York,
   NY, 2009. ACM.
 
-\bibitem{Haller2009Handheld-vs.-la}
-G~Haller, DM~Haller, DS~Courvoisier, and C~Lovis.
-\newblock Handheld vs. laptop computers for electronic data collection in
-  clinical research: a crossover randomized trial.
-\newblock {\em J Am Med Inform Assoc}, 16(5):651--59, Sep-Oct 2009.
+\bibitem{Taylor2002Handheld-comput}
+MH~Taylor.
+\newblock Handheld computing in dentistry.
+\newblock {\em Dent Clin North Am}, 46(3):549--51, Jul 2002.
+
+\bibitem{Jablow2003Your-practice-i}
+M~Jablow.
+\newblock Your practice in the palm of your hand.
+\newblock {\em J N J Dent Assoc}, 74(1):8--9, 2003 Winter.
+
+\bibitem{Frank2010IPad--tool-or-t}
+E~Frank.
+\newblock Ipad--tool or toy?
+\newblock {\em Int J Comput Dent}, 13(4):341--9, 2010.
 
 \bibitem{Kirby1996The-PEN--PAD-da}
 J~Kirby and AL~Rector.
@@ -123,9 +150,64 @@ D~Mayrhofer.
   practice.
 \newblock Masters thesis, Vienna University of Technology, 2007.
 
+\bibitem{Haller2009Handheld-vs.-la}
+G~Haller, DM~Haller, DS~Courvoisier, and C~Lovis.
+\newblock Handheld vs. laptop computers for electronic data collection in
+  clinical research: a crossover randomized trial.
+\newblock {\em J Am Med Inform Assoc}, 16(5):651--59, Sep-Oct 2009.
+
 \bibitem{Mulligen1998Clinical-data-e}
 EM~van Mulligen, H~Stam, and AM~Van~Ginneken.
 \newblock Clinical data entry.
 \newblock {\em Proc Annu Symp Am Med Inform Assoc}, page~81, 1998.
+
+\bibitem{Baumgart2005Personal-digita}
+DC~Baumgart.
+\newblock Personal digital assistants in health care: experienced clinicians in
+  the palm of your hand?
+\newblock {\em Lancet}, 366:1210--22, Oct 2005.
+
+\bibitem{Lu2005A-review-and-a-}
+YC~Lu, Y~Xiao, A~Sears, and JA~Jacko.
+\newblock A review and a framework of handheld computer adoption in healthcare.
+\newblock {\em Int J Med Inform}, 74(5):409--22, Apr 2005.
+
+\bibitem{Bannon1986Issues-in-desig}
+LJ~Bannon.
+\newblock Issues in design: Some notes.
+\newblock In DA~Norman and SW~Draper, editors, {\em User centered dsystem
+  design: New perspectives on human-computer interaction}, pages 25--30.
+  Lawrence Erlbaum Associates, Hillsdale, NJ, 1986.
+
+\bibitem{Wixon1997The-usability-e}
+D~Wixon and C~Wilson.
+\newblock The usability engineering framework for product design and
+  evaluation.
+\newblock In M~Helander and T~Landauer, editors, {\em Handbook of
+  Human-Computer Interaction}, pages 653--88. Elsevier, Amsterdam, 1997.
+
+\bibitem{Gould1997How-to-design-u}
+JD~Gould.
+\newblock How to design usable systems.
+\newblock In M~Helander and T~Landauer, editors, {\em Handbook of
+  Human-Computer Interaction}, pages 231--54. Elsevier, Amsterdam, 2nd edition,
+  1997.
+
+\bibitem{Abras2004Encycolopeida-o}
+C~Abras, D~Maloney-Krichmar, and J~Preece.
+\newblock {\em Encycolopeida of Human-Computer Interaction}.
+\newblock User-Centered Design. Sage Publications, Thousand Oaks, 2004.
+
+\bibitem{Johnson2005A-user-centered}
+CM~Johnson, TR~Johnson, and J~Zhang.
+\newblock A user-centered framework for redesigning health care interfaces.
+\newblock {\em J Biomed Inform}, 38:75--87, 2005.
+
+\bibitem{Chin1998Development-of-}
+JP~Chin, VA~Diehl, and KL~Norman.
+\newblock Development of an instrument measuring user satisfaction of the
+  human-computer interface.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, CHI '88, pages 213--18, New York, NY, 1988. ACM.
 
 \end{thebibliography}
