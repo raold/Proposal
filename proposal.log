@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.4.13)  16 APR 2012 10:20
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.4.13)  14 APR 2012 19:22
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -186,203 +186,37 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [1
 
-{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Citation `Chasteen1992A-computer-data' on page 2 undefined on in
-put line 29.
-
-
-LaTeX Warning: Citation `Eisne1993The-computer-ba' on page 2 undefined on input
- line 29.
-
-
-LaTeX Warning: Citation `Thompson2004The-Decade-of-H' on page 2 undefined on in
-put line 29.
-
-
-LaTeX Warning: Citation `Spicer2008Bytes-and-bites' on page 2 undefined on inpu
-t line 29.
-
-
-LaTeX Warning: Citation `Schleyer2011Advancing-oral' on page 2 undefined on inp
-ut line 29.
-
-<comp.png, id=13, 444.2196pt x 368.0952pt>
+{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] <comp.p
+ng, id=13, 444.2196pt x 368.0952pt>
 File: comp.png Graphic file (type png)
  <use comp.png>
 Package pdftex.def Info: comp.png used on input line 33.
 (pdftex.def)             Requested size: 220.00122pt x 174.99867pt.
-
-
-LaTeX Warning: Citation `Schleyer2006Clinical-Comput' on page 2 undefined on in
-put line 35.
-
-
-LaTeX Warning: Citation `Schleyer2006Clinical-Comput' on page 2 undefined on in
-put line 35.
-
-
-LaTeX Warning: Citation `Levine2010' on page 2 undefined on input line 36.
-
-
-LaTeX Warning: Citation `Thyvalikakath2007Heuristic-evalu' on page 2 undefined 
-on input line 36.
-
-
-LaTeX Warning: Citation `Thyvalikakath2008A-usability-eva' on page 2 undefined 
-on input line 36.
-
-
-LaTeX Warning: Citation `Nielsen1994Usability-Inspe' on page 2 undefined on inp
-ut line 38.
-
-
-LaTeX Warning: Citation `Nielsen1994Enhancing-the-e' on page 2 undefined on inp
-ut line 38.
-
-[2 <./comp.png>] <ss1es.png, id=19, 828.09375pt x 705.63625pt>
+ [2 <./comp.png>] <ss1es.png, id=19, 828.09375pt x 705.63625pt>
 File: ss1es.png Graphic file (type png)
  <use ss1es.png>
 Package pdftex.def Info: ss1es.png used on input line 44.
 (pdftex.def)             Requested size: 360.0pt x 306.76625pt.
-
-
-LaTeX Warning: Citation `Ash2004Some-unintended' on page 3 undefined on input l
-ine 47.
-
-
-LaTeX Warning: Citation `Rose2005Using-qualitati' on page 3 undefined on input 
-line 47.
-
-
-LaTeX Warning: Citation `Schleyer2006Clinical-Comput' on page 3 undefined on in
-put line 49.
-
-
-LaTeX Warning: Citation `John2003Questionnaire-s' on page 3 undefined on input 
-line 49.
-
-
-LaTeX Warning: Citation `Schleyer2004Why-integration' on page 3 undefined on in
-put line 51.
-
-
-LaTeX Warning: Citation `Unthank2004Designing-your-' on page 3 undefined on inp
-ut line 51.
-
-
-LaTeX Warning: Citation `Nygren1998Helping-clinici' on page 3 undefined on inpu
-t line 51.
-
-[3]
-
-LaTeX Warning: Citation `Irwin2009A-preliminary-m' on page 4 undefined on input
- line 54.
-
-[4 <./ss1es.png>] [5]
-
-LaTeX Warning: Citation `Schleyer2007A-Qualitative-I' on page 6 undefined on in
-put line 60.
-
-<papervscomp.jpg, id=29, 676.5275pt x 382.42876pt>
+ [3]
+[4 <./ss1es.png>] [5] <papervscomp.jpg, id=29, 676.5275pt x 382.42876pt>
 File: papervscomp.jpg Graphic file (type jpg)
- <use papervscomp.jpg>
+
+<use papervscomp.jpg>
 Package pdftex.def Info: papervscomp.jpg used on input line 65.
 (pdftex.def)             Requested size: 360.0pt x 203.50905pt.
-
-
-LaTeX Warning: Citation `Schleyer2007A-Qualitative-I' on page 6 undefined on in
-put line 67.
-
-
-LaTeX Warning: Citation `Schleyer2007A-Qualitative-I' on page 6 undefined on in
-put line 67.
-
-
-LaTeX Warning: Citation `Salvucci2009Toward-a-unifie' on page 6 undefined on in
-put line 69.
-
-[6 <./papervscomp.jpg>]
-
-LaTeX Warning: Citation `Taylor2002Handheld-comput' on page 7 undefined on inpu
-t line 72.
-
-
-LaTeX Warning: Citation `Jablow2003Your-practice-i' on page 7 undefined on inpu
-t line 72.
-
-
-LaTeX Warning: Citation `Frank2010IPad--tool-or-t' on page 7 undefined on input
- line 74.
-
-
-LaTeX Warning: Citation `Kirby1996The-PEN--PAD-da' on page 7 undefined on input
- line 74.
-
-
-LaTeX Warning: Citation `Mackenzi2002Text-entry-for-' on page 7 undefined on in
-put line 74.
-
-
-LaTeX Warning: Citation `Mayrhofer2007Pen-based-Elect' on page 7 undefined on i
-nput line 74.
-
-
-LaTeX Warning: Citation `Haller2009Handheld-vs.-la' on page 7 undefined on inpu
-t line 74.
-
-
-LaTeX Warning: Citation `Mulligen1998Clinical-data-e' on page 7 undefined on in
-put line 74.
-
-
-LaTeX Warning: Citation `Baumgart2005Personal-digita' on page 7 undefined on in
-put line 74.
-
-
-LaTeX Warning: Citation `Lu2005A-review-and-a-' on page 7 undefined on input li
-ne 74.
-
-
-LaTeX Warning: Citation `Patel2012Impact-of-Mobil' on page 7 undefined on input
- line 74.
-
-
-LaTeX Warning: Citation `Kaneshige2011iPad-in-Healthc' on page 7 undefined on i
-nput line 74.
-
-[7]
+ [6 <./papervscomp.jpg>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 77.
- (/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
-
+ [7]
 Overfull \hbox (9.41092pt too wide) in paragraph at lines 79--80
 \OT1/cmr/m/n/10.95 clearly, given the mul-ti-tude of in-put classes (find-ings,
  planned/completed
  []
-
-
-LaTeX Warning: Citation `Bannon1986Issues-in-desig' on page 8 undefined on inpu
-t line 82.
-
-
-LaTeX Warning: Citation `Wixon1997The-usability-e' on page 8 undefined on input
- line 82.
-
-
-LaTeX Warning: Citation `Gould1997How-to-design-u' on page 8 undefined on input
- line 82.
-
-
-LaTeX Warning: Citation `Abras2004Encycolopeida-o' on page 8 undefined on input
- line 82.
-
-
-LaTeX Warning: Citation `Johnson2005A-user-centered' on page 8 undefined on inp
-ut line 82.
 
 [8]
 Overfull \hbox (0.95511pt too wide) in paragraph at lines 96--97
@@ -390,36 +224,24 @@ Overfull \hbox (0.95511pt too wide) in paragraph at lines 96--97
 s, based on provider
  []
 
-
-LaTeX Warning: Citation `Chin1998Development-of-' on page 9 undefined on input 
-line 106.
-
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
-
- []
-
-(./proposal.bbl [10] [11] [12]) [13] (./proposal.aux)
-
-LaTeX Warning: There were undefined references.
-
+(./proposal.bbl [10] [11]) [12] (./proposal.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2618 strings out of 493630
- 41128 string characters out of 3143342
- 101214 words of memory out of 3000000
- 5902 multiletter control sequences out of 15000+200000
+ 2616 strings out of 493630
+ 41072 string characters out of 3143342
+ 102214 words of memory out of 3000000
+ 5900 multiletter control sequences out of 15000+200000
  10624 words of font info for 37 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 38i,6n,38p,1729b,300s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,6n,38p,1506b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -430,10 +252,10 @@ al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
 /texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/t
 exlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on proposal.pdf (13 pages, 437160 bytes).
+Output written on proposal.pdf (12 pages, 434653 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
