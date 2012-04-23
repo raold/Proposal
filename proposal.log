@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.4.13)  14 APR 2012 19:22
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  23 APR 2012 11:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **proposal.tex
 (./proposal.tex
-LaTeX2e <2011/06/27>
+LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
 c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
@@ -92,34 +92,58 @@ Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
 )
 \c@ContinuedFloat=\count91
 )
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen114
+\lightrulewidth=\dimen115
+\cmidrulewidth=\dimen116
+\belowrulesep=\dimen117
+\belowbottomsep=\dimen118
+\aboverulesep=\dimen119
+\abovetopsep=\dimen120
+\cmidrulesep=\dimen121
+\cmidrulekern=\dimen122
+\defaultaddspace=\dimen123
+\@cmidla=\count92
+\@cmidlb=\count93
+\@aboverulesep=\dimen124
+\@belowrulesep=\dimen125
+\@thisruleclass=\count94
+\@lastruleclass=\count95
+\@thisrulewidth=\dimen126
+)
 (./proposal.aux)
 \openout1 = `proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count92
-\scratchdimen=\dimen114
+\scratchcounter=\count96
+\scratchdimen=\dimen127
 \scratchbox=\box26
-\nofMPsegments=\count93
-\nofMParguments=\count94
+\nofMPsegments=\count97
+\nofMParguments=\count98
 \everyMPshowfont=\toks15
-\MPscratchCnt=\count95
-\MPscratchDim=\dimen115
-\MPnumerator=\count96
-\makeMPintoPDFobject=\count97
+\MPscratchCnt=\count99
+\MPscratchDim=\dimen128
+\MPnumerator=\count100
+\makeMPintoPDFobject=\count101
 \everyMPtoPDFconversion=\toks16
 ) (/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
@@ -171,11 +195,11 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 15.
+(Font)              <12> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
+(Font)              <8> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 15.
+(Font)              <6> on input line 19.
 
 (./proposal.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -190,58 +214,95 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ng, id=13, 444.2196pt x 368.0952pt>
 File: comp.png Graphic file (type png)
  <use comp.png>
-Package pdftex.def Info: comp.png used on input line 33.
+Package pdftex.def Info: comp.png used on input line 37.
 (pdftex.def)             Requested size: 220.00122pt x 174.99867pt.
- [2 <./comp.png>] <ss1es.png, id=19, 828.09375pt x 705.63625pt>
+ [2 <./comp.png>]
+
+LaTeX Warning: Citation `Qian2011Towards-develop' on page 3 undefined on input 
+line 44.
+
+<ss1es.png, id=19, 828.09375pt x 705.63625pt>
 File: ss1es.png Graphic file (type png)
  <use ss1es.png>
-Package pdftex.def Info: ss1es.png used on input line 44.
+Package pdftex.def Info: ss1es.png used on input line 48.
 (pdftex.def)             Requested size: 360.0pt x 306.76625pt.
- [3]
-[4 <./ss1es.png>] [5] <papervscomp.jpg, id=29, 676.5275pt x 382.42876pt>
+ [3] [4 <./ss1es.png>]
+
+LaTeX Warning: Citation `Acharya2009Electronic-dent' on page 5 undefined on inp
+ut line 62.
+
+[5] <papervscomp.jpg, id=29, 676.5275pt x 382.42876pt>
 File: papervscomp.jpg Graphic file (type jpg)
-
-<use papervscomp.jpg>
-Package pdftex.def Info: papervscomp.jpg used on input line 65.
+ <use papervscomp.jpg>
+Package pdftex.def Info: papervscomp.jpg used on input line 71.
 (pdftex.def)             Requested size: 360.0pt x 203.50905pt.
- [6 <./papervscomp.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 77.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
+[6] [7 <./papervscomp.jpg>]
+
+LaTeX Warning: Citation `Kaneshige2011iPad-in-Healthc' on page 8 undefined on i
+nput line 82.
+
+
+LaTeX Warning: Citation `Mashman:2011uq' on page 8 undefined on input line 82.
+
+
+LaTeX Warning: Citation `Kay1992Restorative-tre' on page 8 undefined on input l
+ine 82.
+
+
+LaTeX Warning: Citation `Tellez-2011-Sealants' on page 8 undefined on input lin
+e 82.
+
+Missing character: There is no Ê in font cmr10!
+Missing character: There is no Ê in font cmr10!
+Missing character: There is no Ê in font cmr10!
+Missing character: There is no Ê in font cmr10!
+
+LaTeX Warning: Citation `Seneviratne2010Improving-stylu' on page 8 undefined on
+ input line 100.
+
+
+LaTeX Warning: Citation `Cole2006A-comparative-s' on page 8 undefined on input 
+line 100.
+
+[8]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
+
+ (/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
- [7]
-Overfull \hbox (9.41092pt too wide) in paragraph at lines 79--80
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
+
+Overfull \hbox (9.41092pt too wide) in paragraph at lines 105--106
 \OT1/cmr/m/n/10.95 clearly, given the mul-ti-tude of in-put classes (find-ings,
  planned/completed
  []
 
-[8]
-Overfull \hbox (0.95511pt too wide) in paragraph at lines 96--97
+[9]
+Overfull \hbox (0.95511pt too wide) in paragraph at lines 128--129
 []\OT1/cmr/m/n/10.95 The abil-ity to au-to-mat-i-cally map a list of treat-ment
 s, based on provider
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 125--127
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
 
  []
 
-(./proposal.bbl [10] [11]) [12] (./proposal.aux)
+(./proposal.bbl [12] [13]) [14] (./proposal.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2616 strings out of 493630
- 41072 string characters out of 3143342
- 102214 words of memory out of 3000000
- 5900 multiletter control sequences out of 15000+200000
+ 2711 strings out of 493633
+ 42456 string characters out of 3143378
+ 102374 words of memory out of 3000000
+ 5985 multiletter control sequences out of 15000+200000
  10624 words of font info for 37 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 38i,6n,38p,1506b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,8n,38p,1506b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -252,10 +313,10 @@ al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
 /texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/t
 exlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on proposal.pdf (12 pages, 434653 bytes).
+Output written on proposal.pdf (14 pages, 441024 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
