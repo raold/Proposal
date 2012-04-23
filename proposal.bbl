@@ -66,6 +66,11 @@ J~Nielsen.
 \newblock CHI '94---Boston, Massachusetts, USA, pages 152--158, New York, NY,
   April 1994. ACM.
 
+\bibitem{Qian2011Towards-develop}
+H~Qian, R~Kuber, and A~Sears.
+\newblock Towards developing perceivable tactile feedback for mobile devices.
+\newblock {\em Int J Hum-Comput St}, 69:705--19, Jul 2011.
+
 \bibitem{Ash2004Some-unintended}
 J~Ash, M~Berg, and E~Coiera.
 \newblock Some unintended consequences of information technology in health
@@ -104,6 +109,11 @@ JY~Irwin, MH~Torres-Urquidy, TK~Schleyer, and V~Monaco.
   planning appointments.
 \newblock {\em Br Dent J}, 206(1):E1, Jan 10 2009.
 
+\bibitem{Acharya2009Electronic-dent}
+A~Acharya, DP~Mital, and TK~Schleyer.
+\newblock Electronic dental record information model.
+\newblock {\em Int J Med Eng Inform}, 1(4):418--34, 2009.
+
 \bibitem{Schleyer2007A-Qualitative-I}
 TK~Schleyer, H~Spallek, and P~Hernandez.
 \newblock A qualitative investigation of the content of dental paper-based and
@@ -128,10 +138,31 @@ M~Jablow.
 \newblock Your practice in the palm of your hand.
 \newblock {\em J N J Dent Assoc}, 74(1):8--9, 2003 Winter.
 
+\bibitem{Kaneshige2011iPad-in-Healthc}
+Tom Kaneshige.
+\newblock ipad in healthcare: Not so fast, Nov 2011.
+
+\bibitem{Mashman:2011uq}
+W~Mashman.
+\newblock The ipad in cardiology: tool or toy?
+\newblock {\em JACC Cardiovasc Interv}, 4(2):258--9, Feb 2011.
+
 \bibitem{Frank2010IPad--tool-or-t}
 E~Frank.
 \newblock Ipad--tool or toy?
 \newblock {\em Int J Comput Dent}, 13(4):341--9, 2010.
+
+\bibitem{Kay1992Restorative-tre}
+EJ~Kay, NM~Nuttall, and R~Knill-Jones.
+\newblock Restorative treatment thresholds and agreement in treatment
+  decision-making.
+\newblock {\em Community Dent Oral Epidemiol}, 20(5):265--8, 1992.
+
+\bibitem{Tellez-2011-Sealants}
+M~Tellez, SL~Gray, and S~Gray.
+\newblock Sealants and dental caries: Dentists' persepectives on evidence-based
+  recommendations.
+\newblock {\em J Am Dent Assoc}, 142:1033--40, Sept 2011.
 
 \bibitem{Kirby1996The-PEN--PAD-da}
 J~Kirby and AL~Rector.
@@ -171,6 +202,20 @@ DC~Baumgart.
 YC~Lu, Y~Xiao, A~Sears, and JA~Jacko.
 \newblock A review and a framework of handheld computer adoption in healthcare.
 \newblock {\em Int J Med Inform}, 74(5):409--22, Apr 2005.
+
+\bibitem{Seneviratne2010Improving-stylu}
+Nilanthi Seneviratne and Beryl Plimmer.
+\newblock Improving stylus interaction for emedical forms.
+\newblock In {\em Proceedings of the 22nd Conference of the Computer-Human
+  Interaction Special Interest Group of Australia on Computer-Human
+  Interaction}, OZCHI '10, pages 280--87, New York, NY, 2010. ACM.
+
+\bibitem{Cole2006A-comparative-s}
+E~Cole, ED~Pisano, GJ~Clary, D~Zeng, M~Koomen, CM~Kuzmiak, BK~Seo, Y~Lee, and
+  D~Pavic.
+\newblock A comparative study of mobile electronic data entry systems for
+  clinical trials data collectio.
+\newblock {\em Int J Med Inform}, 75(10-11):722--29, 2006.
 
 \bibitem{Bannon1986Issues-in-desig}
 LJ~Bannon.

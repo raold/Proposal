@@ -3,48 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: proposal.aux
 The style file: unsrt.bst
 Database file #1: Master.bib
+Warning--entry type for "Kaneshige2011iPad-in-Healthc" isn't style-file defined
+--line 65 of file Master.bib
 Warning--empty booktitle in Thompson2004The-Decade-of-H
 Warning--empty booktitle in Nielsen1994Enhancing-the-e
 Warning--can't use both author and editor fields in Abras2004Encycolopeida-o
-You've used 36 entries,
+You've used 44 entries,
             1791 wiz_defined-function locations,
-            713 strings with 10505 characters,
-and the built_in function-call counts, 8841 in all, are:
-= -- 810
-> -- 359
-< -- 9
-+ -- 134
-- -- 98
-* -- 608
-:= -- 1391
-add.period$ -- 116
-call.type$ -- 36
-change.case$ -- 36
+            766 strings with 11983 characters,
+and the built_in function-call counts, 10805 in all, are:
+= -- 990
+> -- 448
+< -- 10
++ -- 167
+- -- 123
+* -- 760
+:= -- 1698
+add.period$ -- 140
+call.type$ -- 44
+change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 39
-duplicate$ -- 416
-empty$ -- 859
-format.name$ -- 98
-if$ -- 2039
+cite$ -- 47
+duplicate$ -- 496
+empty$ -- 1047
+format.name$ -- 123
+if$ -- 2474
 int.to.chr$ -- 0
-int.to.str$ -- 36
-missing$ -- 37
-newline$ -- 183
-num.names$ -- 42
-pop$ -- 80
+int.to.str$ -- 44
+missing$ -- 44
+newline$ -- 222
+num.names$ -- 50
+pop$ -- 96
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 196
+skip$ -- 234
 stack$ -- 0
-substring$ -- 567
-swap$ -- 104
-text.length$ -- 9
+substring$ -- 717
+swap$ -- 121
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 82
-width$ -- 38
-write$ -- 415
-(There were 3 warnings)
+while$ -- 103
+width$ -- 46
+write$ -- 503
+(There were 4 warnings)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  23 APR 2012 11:49
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  23 APR 2012 15:29
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -216,59 +216,28 @@ File: comp.png Graphic file (type png)
  <use comp.png>
 Package pdftex.def Info: comp.png used on input line 37.
 (pdftex.def)             Requested size: 220.00122pt x 174.99867pt.
- [2 <./comp.png>]
-
-LaTeX Warning: Citation `Qian2011Towards-develop' on page 3 undefined on input 
-line 44.
-
-<ss1es.png, id=19, 828.09375pt x 705.63625pt>
+ [2 <./comp.png>] <ss1es.png, id=19, 828.09375pt x 705.63625pt>
 File: ss1es.png Graphic file (type png)
  <use ss1es.png>
 Package pdftex.def Info: ss1es.png used on input line 48.
 (pdftex.def)             Requested size: 360.0pt x 306.76625pt.
- [3] [4 <./ss1es.png>]
-
-LaTeX Warning: Citation `Acharya2009Electronic-dent' on page 5 undefined on inp
-ut line 62.
-
-[5] <papervscomp.jpg, id=29, 676.5275pt x 382.42876pt>
+ [3]
+[4 <./ss1es.png>] [5] <papervscomp.jpg, id=29, 676.5275pt x 382.42876pt>
 File: papervscomp.jpg Graphic file (type jpg)
- <use papervscomp.jpg>
+
+<use papervscomp.jpg>
 Package pdftex.def Info: papervscomp.jpg used on input line 71.
 (pdftex.def)             Requested size: 360.0pt x 203.50905pt.
-
-[6] [7 <./papervscomp.jpg>]
-
-LaTeX Warning: Citation `Kaneshige2011iPad-in-Healthc' on page 8 undefined on i
-nput line 82.
-
-
-LaTeX Warning: Citation `Mashman:2011uq' on page 8 undefined on input line 82.
-
-
-LaTeX Warning: Citation `Kay1992Restorative-tre' on page 8 undefined on input l
-ine 82.
-
-
-LaTeX Warning: Citation `Tellez-2011-Sealants' on page 8 undefined on input lin
-e 82.
-
+ [6] [7 <./papervscomp.jpg>]
 Missing character: There is no Ê in font cmr10!
 Missing character: There is no Ê in font cmr10!
 Missing character: There is no Ê in font cmr10!
 Missing character: There is no Ê in font cmr10!
-
-LaTeX Warning: Citation `Seneviratne2010Improving-stylu' on page 8 undefined on
- input line 100.
-
-
-LaTeX Warning: Citation `Cole2006A-comparative-s' on page 8 undefined on input 
-line 100.
-
-[8]
+ [8]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
 
- (/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
@@ -290,30 +259,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--161
 
  []
 
-(./proposal.bbl [12] [13]) [14] (./proposal.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(./proposal.bbl [12] [13]) [14] (./proposal.aux) ) 
 Here is how much of TeX's memory you used:
  2711 strings out of 493633
  42456 string characters out of 3143378
- 102374 words of memory out of 3000000
+ 102406 words of memory out of 3000000
  5985 multiletter control sequences out of 15000+200000
  10624 words of font info for 37 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  38i,8n,38p,1506b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/loc
-al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
-/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/t
-exlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on proposal.pdf (14 pages, 441024 bytes).
+</usr/local/texlive/2011/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2011/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2011/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2011/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2011/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2011/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2011/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2011/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2011/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2011/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmtt12.pfb>
+Output written on proposal.pdf (14 pages, 441803 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
