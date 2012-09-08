@@ -1,52 +1,52 @@
 This is BibTeX, Version 0.99d (TeX Live 2011)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: proposal.aux
-The style file: unsrt.bst
-Database file #1: Master.bib.bib
+The style file: ../unsrt.bst
+Database file #1: ../Master.bib
 Warning--entry type for "Kaneshige2011iPad-in-Healthc" isn't style-file defined
---line 249 of file Master.bib.bib
+--line 249 of file ../Master.bib
 Warning--empty booktitle in Thompson2004The-Decade-of-H
 Warning--empty booktitle in Nielsen1994Enhancing-the-e
 Warning--can't use both author and editor fields in Abras2004Encycolopeida-o
-You've used 44 entries,
+You've used 45 entries,
             1791 wiz_defined-function locations,
-            766 strings with 11972 characters,
-and the built_in function-call counts, 10813 in all, are:
-= -- 990
-> -- 451
+            772 strings with 12122 characters,
+and the built_in function-call counts, 10989 in all, are:
+= -- 1006
+> -- 459
 < -- 10
-+ -- 168
-- -- 124
-* -- 759
-:= -- 1701
-add.period$ -- 140
-call.type$ -- 44
-change.case$ -- 44
++ -- 171
+- -- 126
+* -- 767
+:= -- 1729
+add.period$ -- 143
+call.type$ -- 45
+change.case$ -- 45
 chr.to.int$ -- 0
-cite$ -- 47
-duplicate$ -- 496
-empty$ -- 1046
-format.name$ -- 124
-if$ -- 2475
+cite$ -- 48
+duplicate$ -- 506
+empty$ -- 1065
+format.name$ -- 126
+if$ -- 2517
 int.to.chr$ -- 0
-int.to.str$ -- 44
-missing$ -- 44
-newline$ -- 222
-num.names$ -- 50
-pop$ -- 96
+int.to.str$ -- 45
+missing$ -- 46
+newline$ -- 227
+num.names$ -- 51
+pop$ -- 101
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 234
+skip$ -- 237
 stack$ -- 0
 substring$ -- 717
-swap$ -- 121
+swap$ -- 122
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 103
-width$ -- 46
-write$ -- 503
+while$ -- 104
+width$ -- 47
+write$ -- 515
 (There were 4 warnings)
