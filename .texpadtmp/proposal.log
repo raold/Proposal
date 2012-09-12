@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (TeX Live 2011) (format=xelatex 2012.8.26)  8 SEP 2012 15:16
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (TeX Live 2011) (format=xelatex 2012.8.26)  12 SEP 2012 10:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -110,12 +110,111 @@ Package: chngpage 2009/10/20 v1.2b change page layout
 \c@cp@cnt=\count96
 \c@cp@tempcnt=\count97
 )
+(/usr/local/texlive/2011/texmf-dist/tex/latex/layouts/layouts.sty
+Package: layouts 2009/09/02 v2.6d graphical depiction of document elements
+\l@ylen=\skip43
+\layoutsbox=\box26
+\l@youtunitlength=\skip44
+\l@youtlinethick=\skip45
+\l@youtlinethickii=\skip46
+\l@ysetupparskip=\skip47
+\l@ysetupbaselineskip=\skip48
+\l@yonem=\skip49
+\l@yonex=\skip50
+\l@ylmarg=\skip51
+\l@yrmarg=\skip52
+\l@yitmindent=\skip53
+\l@ylblwidth=\skip54
+\l@ylblsep=\skip55
+\l@ylparindent=\skip56
+\l@ytsep=\skip57
+\l@ypskip=\skip58
+\l@yptsep=\skip59
+\l@ypsep=\skip60
+\l@yitmsep=\skip61
+\l@ytok=\toks15
+\l@youtpw=\count98
+\l@youtph=\count99
+\l@youthpi=\count100
+\l@youthpii=\count101
+\l@youthpiii=\count102
+\l@youthpiv=\count103
+\l@youthpv=\count104
+\l@youthpvi=\count105
+\l@youthpvii=\count106
+\l@youtparskip=\count107
+\l@youtvpi=\count108
+\l@youtvpii=\count109
+\l@youtvpiii=\count110
+\l@youtvpiv=\count111
+\l@youtvpv=\count112
+\l@youtvpvi=\count113
+\l@youtvpvii=\count114
+\l@youthdo=\count115
+\l@youthdi=\count116
+\l@youthdii=\count117
+\l@youthdiii=\count118
+\l@youthdiv=\count119
+\l@youthdv=\count120
+\l@youthdvi=\count121
+\l@youthdvii=\count122
+\l@youtvdo=\count123
+\l@youtvdi=\count124
+\l@youtvdii=\count125
+\l@youtvdiii=\count126
+\l@youtvdiv=\count127
+\l@youtvdv=\count128
+\l@youtvdvi=\count129
+\l@youtvdvii=\count130
+\l@youtvdviii=\count131
+\l@youtxci=\count132
+\l@youtxcii=\count133
+\l@youtxciii=\count134
+\l@youtxciv=\count135
+\l@youtxcv=\count136
+\l@youtxcvi=\count137
+\l@youtyci=\count138
+\l@youtycii=\count139
+\l@youtyciii=\count140
+\l@youtyciv=\count141
+\l@youtycv=\count142
+\l@youtycvi=\count143
+\l@youtycvii=\count144
+\l@youtycviii=\count145
+\l@youtxco=\count146
+\l@youtyco=\count147
+\l@ytempdima=\skip62
+\stockwidth=\skip63
+\stockheight=\skip64
+\trimedge=\skip65
+\trimtop=\skip66
+\uppermargin=\skip67
+\spinemargin=\skip68
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2012/03/29 v1.1i non floating margin notes for LaTeX
+\c@mn@abspage=\count148
+)
 (/usr/local/texlive/2011/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count98
-\c@@ppsavesec=\count99
-\c@@ppsaveapp=\count100
+\c@@pps=\count149
+\c@@ppsavesec=\count150
+\c@@ppsaveapp=\count151
 )
+
+./proposal.tex:13: LaTeX Error: Command \marginnoteleftadjust already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \newcommand*{\marginnoteleftadjust}{1}
+                                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
@@ -201,34 +300,39 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 osal.aux)
 \openout1 = `proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 17.
  (/usr/local/texlive/2011/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    ... okay on input line 17.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 21.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 21.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 21.
-File: comp.png Graphic file (type QTm)
 
+
+Package layouts Warning: Layout scale set to 0.5 on input line 17.
+
+Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
+(marginnote)             Extended position detection mode activated.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 23.
+File: comp.png Graphic file (type QTm)
 <use  "comp.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -237,42 +341,118 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 43.
+(Font)              <10.95> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 43.
+(Font)              <5> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 43.
- [2]
-File: ss1es.png Graphic file (type QTm)
- <use  "ss1es.png" >
+(Font)              <9> on input line 46.
+ [2] [3] [4]
 File: papervscomp.jpg Graphic file (type QTm)
- <use  "papervscomp.jpg" > [3] [4] [5] [6] [7]
-[8] [9] [10]
-Overfull \hbox (0.95511pt too wide) in paragraph at lines 144--145
+ <use  "papervscomp.jpg" > [5] [6] [7] [8] [9] [10] [11]
+Overfull \hbox (0.95511pt too wide) in paragraph at lines 154--155
 []\OT1/cmr/m/n/10.95 The abil-ity to au-to-mat-i-cally map a list of treat-ment
 s, based on provider
  []
 
-[11] [12] [13]
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]\OT1/cmr/m/n/10 Two tasks
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\OT1/cmr/m/n/10 as-signed in
+ []
+
+
+Overfull \hbox (4.58286pt too wide) in paragraph at lines 175--175
+[]\OT1/cmr/bx/n/10.95 Evaluation| 
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 177--177
+[]\OT1/cmr/m/n/10.95 Na^^?^^Pve with
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 177--177
+\OT1/cmr/m/n/10.95 30 min-utes
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 178--178
+[]\OT1/cmr/m/n/10.95 Na^^?^^Pve with
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 178--178
+\OT1/cmr/m/n/10.95 30 min-utes
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 171--180
+[][][][]
+ []
+
+[13] [14] [15]
 (/Users/arthur/Dropbox/1_share/BIOINF 3990 - Ind Study/Proposal/.texpadtmp/prop
-osal.bbl [14] [15]) [16]
+osal.bbl [16]
+Underfull \hbox (badness 1688) in paragraph at lines 159--163
+[]\OT1/cmr/m/n/9 E Kalen-de-rian, RL Ra-moni, JM White, ME Schoonheim-Klein, PC
+ Stark,
+ []
+
+[17] [18]) [19]
+File: dentrixss1.png Graphic file (type QTm)
+ <use  "dentrixss1.png" > [20]
+File: dentrixuse.png Graphic file (type QTm)
+ <use  "dentrixuse.png" >
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+ [21]
+File: esss.png Graphic file (type QTm)
+
+<use  "esss.png" > [22]
+File: artifactmodel.png Graphic file (type QTm)
+ <use  "artifactmodel.png" > [23]
 File: phymodel1.png Graphic file (type QTm)
- <use  "phymodel1.png" > [17]
+
+<use  "phymodel1.png" > [24]
 File: phymodel2.png Graphic file (type QTm)
  <use  "phymodel2.png" >
-[18]
-File: artifactmodel.png Graphic file (type QTm)
- <use  "artifactmodel.png" > [19]
+File: phymodel3.png Graphic file (type QTm)
+ <use  "phymodel3.png" >
+[25] [26]
 (/Users/arthur/Dropbox/1_share/BIOINF 3990 - Ind Study/Proposal/.texpadtmp/prop
 osal.aux) ) 
 Here is how much of TeX's memory you used:
- 2438 strings out of 494123
- 38720 string characters out of 3151761
- 91368 words of memory out of 3000000
- 5710 multiletter control sequences out of 15000+200000
+ 2777 strings out of 494123
+ 43271 string characters out of 3151761
+ 109611 words of memory out of 3000000
+ 6038 multiletter control sequences out of 15000+200000
  11409 words of font info for 39 fonts, out of 3000000 for 9000
  1018 hyphenation exceptions out of 8191
- 36i,9n,38p,2121b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,10n,38p,2075b,382s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on /Users/arthur/Dropbox/1_share/BIOINF 3990 - Ind Study/Proposa
-l/.texpadtmp/proposal.pdf (19 pages).
+l/.texpadtmp/proposal.pdf (26 pages).

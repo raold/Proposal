@@ -59,6 +59,11 @@ J~Nielsen and RL~Mack.
 \newblock {\em Executive summary}, pages 1--24.
 \newblock Usability inspection methods. John Wiley \& Sons, New York, 1994.
 
+\bibitem{Schleyer:2007fk}
+TK~Schleyer.
+\newblock Assessing software usability through heuristic evaluation.
+\newblock {\em J Am Dent Assoc}, 138(2):211--12, Feb 2007.
+
 \bibitem{Thyvalikakath:2009fk}
 TP~Thyvalikakath, V~Monaco, HB~Thambuganipalle, and TK~Schleyer.
 \newblock Comparative study of heuristic evaluation and usability testing
@@ -77,6 +82,22 @@ H~Qian, R~Kuber, and A~Sears.
 \newblock Towards developing perceivable tactile feedback for mobile devices.
 \newblock {\em Int J Hum-Comput St}, 69:705--19, Jul 2011.
 
+\bibitem{Norman:1989uq}
+DA~Norman.
+\newblock {\em The design of everyday things}.
+\newblock MIT, 1989.
+
+\bibitem{Fitts:1964vn}
+PM~Fitts and JR~Peterson.
+\newblock Information capacity of discrete motor responses.
+\newblock {\em J Exp Psychol}, 67(2):103--12, Feb 1964.
+
+\bibitem{Fitts:2012kx}
+PM~Fitts.
+\newblock The information capacity of the human motor system in controlling the
+  amplitude of movement.
+\newblock {\em J Exp Psychol}, 47(6):262--69, June 1954.
+
 \bibitem{Ash2004Some-unintended}
 J~Ash, M~Berg, and E~Coiera.
 \newblock Some unintended consequences of information technology in health
@@ -87,6 +108,11 @@ J~Ash, M~Berg, and E~Coiera.
 AF~Rose, JL~Schnipper, ER~Park, EG~Poon, Q~Li, and B~Middleton.
 \newblock Using qualitative studies to improve the usability of an emr.
 \newblock {\em J Biomed Inform}, 38(1):51--60, 2005.
+
+\bibitem{Cockerell:2009fk}
+Tom Cockerell.
+\newblock {Patient Records, Letter to the Editor}.
+\newblock {\em J Am Dent Assoc}, 140(4):402--4, April 2009.
 
 \bibitem{John2003Questionnaire-s}
 J~John, D~Thomas, and D~Richards.
@@ -128,6 +154,28 @@ JY~Irwin, MH~Torres-Urquidy, TK~Schleyer, and V~Monaco.
 \newblock A preliminary model of work during initial examination and treatment
   planning appointments.
 \newblock {\em Br Dent J}, 206(1):E1, Jan 10 2009.
+
+\bibitem{Kalenderian:2011ly}
+E~Kalenderian, RL~Ramoni, JM~White, ME~Schoonheim-Klein, PC~Stark, NS~Kimmes,
+  GG~Zeller, and MF~Walji.
+\newblock The development of a dental diagnostic terminology.
+\newblock {\em J Dent Educ}, 75(1):68--76, Jan 2011.
+
+\bibitem{White:2011zr}
+JM~White, E~Kalenderian, PC~Stark, RL~Ramoni, R~Vaderhobil, and MF~Walji.
+\newblock Evaluating a dental diagnostic terminology in an electronic health
+  record.
+\newblock {\em J Dent Educ}, 75(5):605--15, May 2011.
+
+\bibitem{Acharya2009Electronic-dent}
+A~Acharya, DP~Mital, and TK~Schleyer.
+\newblock Electronic dental record information model.
+\newblock {\em Int J Med Eng Inform}, 1(4):418--34, 2009.
+
+\bibitem{Emmott2010Electronic-dent}
+L~Emmott.
+\newblock Electronic dental records in dentistry.
+\newblock {\em J Am Coll Dent}, 77(1):10--12, 2010 Winter.
 
 \bibitem{Taylor2002Handheld-comput}
 MH~Taylor.
