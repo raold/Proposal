@@ -72,8 +72,8 @@ TP~Thyvalikakath, V~Monaco, HB~Thambuganipalle, and TK~Schleyer.
 
 \bibitem{Nielsen1994Enhancing-the-e}
 J~Nielsen.
-\newblock Proceedings of the sigchi conference on human factors in computing
-  systems: ``celebrating interdependence''.
+\newblock {Proceedings of the SIGCHI conference on Human factors in computing
+  systems: ``Celebrating Interdependence''}.
 \newblock CHI '94---Boston, Massachusetts, USA, pages 152--158, New York, NY,
   April 1994. ACM.
 
@@ -308,5 +308,30 @@ JP~Chin, VA~Diehl, and KL~Norman.
   human-computer interface.
 \newblock In {\em Proceedings of the SIGCHI conference on Human factors in
   computing systems}, CHI '88, pages 213--18, New York, NY, 1988. ACM.
+
+\bibitem{Virzi:1992ve}
+RA~Virzi.
+\newblock {Refining the test phase of usability evaluation: How many subjects
+  is enough?}
+\newblock {\em Hum Factors}, 34(4):457--468, Aug 1992.
+
+\bibitem{Lewis:1994ly}
+JR~Lewis.
+\newblock Sample sizes for usability studies: additional considerations.
+\newblock {\em Hum Factors}, 36(2):368--78, Jun 1994.
+
+\bibitem{Turner:2006zr}
+CW~Turner, JR~Lewis, and J~Nielsen.
+\newblock Determining usability test sample size.
+\newblock In W~Karwowski, editor, {\em {International Encyclopeida of
+  Ergonomics and Human Factors}}, volume~3, pages 3084--88, Boca Raton, FL,
+  2006. CRC Press.
+
+\bibitem{Nielsen:1993ys}
+J~Nielsen and T~Landauer.
+\newblock A mathematical model of the finding of usability problems.
+\newblock In {\em {Proceedings of the INTERACT '93 and CHI '93 conference on
+  Human factors in computing systems}}, CHI '93, pages 206--213, New York, NY,
+  1993. ACM.
 
 \end{thebibliography}

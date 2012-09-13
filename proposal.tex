@@ -7,16 +7,17 @@
 \usepackage{chngpage}
 \usepackage{layouts}
 \usepackage{marginnote}
+\usepackage{hyperref}%need to maker hyperlinks
 \usepackage[toc,page]{appendix}
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
-\newcommand*{\marginnoteleftadjust}{1}
+%\newcommand*{\marginnoteleftadjust}{1}
 \usepackage{textcomp}
 \bibliographystyle{unsrt}
 
 \begin{document}
 
-\title{Master's thesis proposal [rev\_4] textwidth: \printinunitsof{cm}\prntlen{\textwidth}}
+\title{Master's thesis proposal [rev\_4.4]} %textwidth: \printinunitsof{cm}\prntlen{\textwidth}}
 \author{\normalsize Richard Oldham, DDS \vspace{7pt} \\ 
 		\small University of Pittsburgh \vspace{-2pt} \\
 		\small Department of Biomedical Informatics}
@@ -24,17 +25,17 @@
 
 
 \begin{abstract}
-The benefits of Computerized Patient Records (CPRs) are well documented. Yet current dental CPRs inadequately support chairside use and adoption of computers chairside remains low. If dental professionals have any hope of realizing the advantages CPRs offer, information systems must adapt to their workflow and not \textit{vice versa}. To that end, research suggests tablet devices hold promise as an alternative to traditional desktop PCs' ergonomic shortcomings in the clinical environment. Designing a goal and task specific tablet-based treatment planning interface may help bridge the adoption gap between office and chairside computer use in dentistry. Evaluation can determine if users are faster, more successful, or more subjectively satisfied with the tablet application over traditional CPRs.
+The benefits of Computerized Patient Records (CPRs) are well documented. Yet current dental CPRs inadequately support chairside use as evinced in low adoption rates for operatory computers. If dental professionals have any hope of realizing the advantages CPRs offer, information systems must adapt to their workflow and not \textit{vice versa}. To that end, research suggests tablet devices hold promise as an alternative to traditional desktop PCs' ergonomic shortcomings in the clinical environment. Designing a goal and task specific tablet-based treatment planning interface may help bridge the adoption gap between office and chairside computer use in dentistry. Evaluation can determine if users are faster, more successful, less error prone, or more subjectively satisfied with the tablet application over traditional CPRs.
 \end{abstract}
 
 \section{Background}
-First, I summarize applicable findings from informatics research on CPRs. Next, I discuss a user model for treatment planning in dentistry. Lastly, I discuss conclusions and potential solutions.
+First, I summarize applicable findings from usability and informatics research. Next, I discuss a user model for treatment planning in dentistry. Lastly, I discuss conclusions and potential solutions.
 
 \subsection{Adoption Gap}
 
 The adoption of Computerized Patient Records (CPRs) by healthcare professionals has long been recognized as a key step in improving patient care\cite{Chasteen1992A-computer-data,Eisne1993The-computer-ba,Thompson2004The-Decade-of-H,Spicer2008Bytes-and-bites,Schleyer2011Advancing-oral}. Dentists recognized the power of computers assisting with practice administration --- such as scheduling and billing --- becoming early adopters of computers in-office (Figure \ref{adoption}).
 
-\begin{figure}[!h]
+\begin{figure}[h!]
 \begin{center}
 \includegraphics[width=105mm]{comp.png}
 \end{center}
@@ -46,15 +47,13 @@ The adoption of Computerized Patient Records (CPRs) by healthcare professionals 
 \noindent Survey data from 2010, the most recent available, reported 92\% of respondents using Practice Management Software (PMS)\cite{Levine2010}.\footnote[2]{Here I use PMS to refer to software that handles office administration whereas a CPR handles patients' clinical data. Most CPR software is also PMS but not the other way around.} However, the conclusions of two usability studies on four dental CPRs, which together comprise more than a 70\% market share for such systems, suggest poor usability is a barrier to dental CPR adoption for chairside use\cite{Thyvalikakath2007Heuristic-evalu,Thyvalikakath2008A-usability-eva}. The gap between office adoption of computers and the adoption of computers for chairside use is evident in Figure \ref{adoption}.
 
 \subsection{Usability}
-The first of the two cited usability studies employed heuristic evaluation methods\cite{Nielsen1994Usability-Inspe, Schleyer:2007fk}. Three expert reviewers examined each of the four CPRs and tabulated violations of Nielsen's heuristics \cite{Thyvalikakath:2009fk}. Evaluators found 229 violations in total across EagleSoft, Dentrix, PracticeWorks, and SoftDent. Consistency and Standards, Match Between System and the Real World, and Error Prevention were the most commonly violated heuristics with the distribution of violations roughly equal among the four CPRs inspected. The authors admit their conclusions offered no comparative assessment between the CPRs but the magnitude of violations suggested significant room for usability improvement.
+The first of the two cited usability studies employed heuristic evaluation methods\cite{Nielsen1994Usability-Inspe, Schleyer:2007fk}. Three expert reviewers examined each of the four CPRs and tabulated violations of Nielsen's heuristics \cite{Thyvalikakath:2009fk}. Evaluators found 229 violations in total across EagleSoft, Dentrix, PracticeWorks, and SoftDent. Consistency and Standards, Match Between System and the Real World (\ref{controls}), and Error Prevention were the most commonly violated heuristics  with the distribution of violations roughly equal among the four CPRs inspected. The authors admit their conclusions offered no comparative assessment between the CPRs but the magnitude of violations suggested significant room for usability improvement.
 
-The second usability study compared\cite{Nielsen1994Enhancing-the-e} these same market-leading CPRs by assigning common tasks to five novice users for each of the four systems ($n = 20$). Users were purposively sampled with four full-time dental faculty members, eight practicing dentists, and eight senior dental students from the University of Pittsburgh School of Dental Medicine comprising subjects for the assessment. Two experts coded task completion success and associated usability problems. The authors used Wilcoxon rank-sum tests, Spearman correlation coefficient tests, and Kruskal-Wallis tests to determine the correlation between usability problems and task outcomes. On average, users correctly completed 43\% of the assigned tasks leading to a similar conclusion: the most commonly used dental CPRs suffered from a steep learning curve and have ample room for usability improvement.
+The second usability study compared\cite{Nielsen1994Enhancing-the-e} these same market-leading CPRs by assigning common tasks to five novice users for each of the four systems ($n = 20$). Users were purposively sampled with four full-time dental faculty members, eight practicing dentists, and eight senior dental students from the University of Pittsburgh School of Dental Medicine comprising subjects for the assessment. Two experts coded task completion success and associated usability problems. The authors used Wilcoxon rank-sum tests, Spearman correlation coefficient tests, and Kruskal-Wallis tests to determine the correlation between usability problems and task outcomes. The frequency of observed usability problems correlated positively with the frequency of task failures for all tasks except two $(p < 0.05)$: assigning a tooth as missing and recording soft tissue measurements. On average, users correctly completed 43\% of the assigned tasks leading to a similar conclusion: the most commonly used dental CPRs suffered from a steep learning curve and have ample room for usability improvement.
 
-The results of these two studies point to inadequate support for chairside use. All four systems included in these studies began life as PMS with clinical functions added later. The abundance of nested menus, tree selections, and drop down lists for clinical and non-clinical functions alike are evidence of this (\ref{dentrixplain}). Dentrix, for instance, provides sometimes two or three different input methods for the same function on the same screen (button on a pallet, tree selection, and drop down menu). All four systems evaluated by Thyvalikakath et al. employ screen designs that include nearly all input options at once rather than the options needed for the specific task or goal (\ref{ES}). Interfaces with many options can make finding the function of interest more difficult, increase cognitive load, and slow the user\cite{Qian2011Towards-develop}. One could argue complicated interfaces are not universally poor if such an interface is appropriate for the job (for example, an airplane cockpit). But given the evidence, it seems the gulf of execution and evaluation \cite{Norman:1989uq} in dental CPRs is unnecessarily wide. Dentrix and Eaglesoft screen design, for example, confused novice users with intermixed controls for entering existing conditions and planned procedures on the same palette. And performing basic tasks, such as marking a tooth as missing, require four to six mouse clicks across a wide swath of screen real estate (\ref{dentrixusabil}). Fitts's law \cite{Fitts:1964vn,Fitts:2012kx} states the average task completion time, $T$, is primarily a function of $D$, the distance from the starting point to the center of the target and $W$, the width of the target measured along the axis of motion such that:
+The results of these two studies point to inadequate support for chairside use. All four systems included in these studies began life as PMS with clinical functions added later. The abundance of nested menus, tree selections, and drop down lists for clinical and non-clinical functions alike are evidence of this (\ref{dentrixplain}). Dentrix, for instance, provides sometimes two or three different input methods for the same function on the same screen (button on a pallet, tree selection, and drop down menu). All four systems evaluated by Thyvalikakath et al. employ screen designs that include nearly all input options at once rather than the options needed for the specific task or goal (\ref{ES}). Interfaces with many options can make finding the function of interest more difficult, increase cognitive load, and slow the user\cite{Qian2011Towards-develop}. One could argue complicated interfaces are not universally poor if such an interface is appropriate for the job (for example, an airplane cockpit). But given the evidence, it seems the gulf of execution and evaluation \cite{Norman:1989uq} in dental CPRs is unnecessarily wide. Dentrix and Eaglesoft screen design, for example, confused novice users with intermixed controls for entering existing conditions and planned procedures on the same palette. And performing basic tasks, such as marking a tooth as missing, require four to six mouse clicks across a wide swath of screen real estate (\ref{dentrixusabil}). 
 
-$$ T = a + b \log_2 \left(1 + \frac{D}{W}\right) $$
-
-\noindent Though not measured by Thyvalikakath et al. (2008), one might expect task completion time for the surveyed CPRs to be high given the included mouse tracking data (\ref{dentrixusabil}). Compounded over the course of an initial exam appointment, this paradigm for data input is time prohibitive for a single user. Meaning, these input design choices are far from efficient for a user that requires efficiency.
+Fitts's law \cite{Fitts:1964vn,Fitts:2012kx} predicts the average task completion time, $T$, as primarily a function of $D$, the distance from the starting point to the center of the target and $W$, the width of the target measured along the axis of motion such that $ T = a + b \log_2 \left(1 + \frac{D}{W}\right) $ where a and b are experimentally determined constants. Though not measured by Thyvalikakath et al. (2008), one might expect poor task completion time for the surveyed CPRs in light of mousetracking data showing long distances and narrow targets (\ref{dentrixusabil}). Compounded over the course of an initial exam appointment, this method of data input is time prohibitive for a single user. Meaning, these input design choices are far from efficient for a user that requires efficiency.
 
 Since the information input and retrieval processes were not integrated into the concepts of tasks and workflow, users were required to divide their attention between navigation and task completion. In both usability studies, the authors noted information that would typically appear on a single paper form was spread out over two or more screens in the CPR. The comparative evaluation cited difficulty with tasks that required screen switching as a principle source of user frustration. Evidence suggests these problems are not unique to dental health information technology (HIT) applications\cite{Ash2004Some-unintended,Rose2005Using-qualitati}.
 
@@ -142,7 +141,7 @@ These are the same class of items required to work through case examples in the 
 
 From survey data we know that dental practices value digital functionality related to financial reimbursement. Poor usability demonstrated in evaluation offers a plausible explanation for this and may help explain the practice of keeping some artifacts digital and others on paper. Why would a clinician bother with the many clicks and screen shuffling required to document all of their findings in the digital record if they are paid only for the completed treatments? Indeed many clinicians either use planned treatments as their primary method of documentation or use paper records as a workaround. 
 
-If a system were designed with goals and tasks in mind, however, it is feasible that a small number of rules could unambiguously and programatically render diagnoses from problems---generating knowledge from data and saving the operator valuable chair-time in the process. More broadly, these rule-based functions are a necessary first step to improving patient care by changing the work flow process from ``what treatment should address the problem?'' to ``why is there pathology present?''
+If a system were designed with goals and tasks in mind, however, it is feasible that a small number of rules could unambiguously and programatically render diagnoses from problems---generating knowledge from data and saving the operator valuable chair-time in the process. These rule-based functions are a necessary first step to improving patient care by changing the work flow process from ``what treatment should address the problem?'' to ``why is there pathology present?'' Doing so allows a potentially valuable hook into decision making process with which to provide clinical decision support.
 
 %Many options are available for mobile development. The two dominant operating systems for tablet devices are Android and iOS. To develop a platform-native application, Android requires application coding in Java and iOS requires coding in Objective-C. Alternatively, a web-native application can be ``wrapped'' for use on any platform using responsive web design (a small JavaScript instruction set to resize content based on browser resolution). While each platform has advantages and disadvantages, no design decision has yet been made.
 
@@ -160,12 +159,13 @@ Following the generation of a treatment plan (or plans), the provider next discu
 \subsection{Evaluation}
 \label{eval}
 
-Designing a novel interface lends itself well to the evaluation process. Were I to evaluate only the interfaces, there would be no opportunity to test the ergonomic advantage of a smaller device. I propose a two stage evaluation:
+Designing a novel interface lends itself well to the evaluation process. Were I to evaluate only the interfaces, there would be no opportunity to test the ergonomic advantage of a smaller device. Therefore, I propose a two stage evaluation.
+
 \subsubsection{Evaluation Design}
 \reversemarginpar
 \marginpar{\small{Two tasks assigned in cross-control}}
 \begin{table}[h]
-	\caption{Proposed evaluation design}
+	\caption{Proposed within-subjects evaluation design using a tablet-based prototype and conventional CPR for comparison}
 	\begin{center}
 	\ra{1.3}
 \begin{tabular*}{\textwidth}{p{1.9cm}p{2cm}p{2cm}p{5cm}}  
@@ -192,18 +192,31 @@ As previously described, the UCD approach to development is ideally suited to th
 \begin{table}[h]
 \begin{center}
 \ra{1.3}
-\begin{tabular}{l l l}
+\begin{tabular}{l l l l}
 \toprule
-\textbf{Method}	&	\textbf{Case Number}	&  \textbf{Time} \\
+\textbf{Person}  &  \textbf{Method}	&	\textbf{Case No.}  &  \textbf{Time} \\
 \midrule
-A		&	1				&	14.034  \\
-B		&	2				&	18.351  \\
-A		&	2				&	10.543  \\
-B		&	1				&	16.248  \\
+Alice & A		&	1				&	14.034  \\
+      & B		&	2				&	18.351  \\
+Bob & A		&	2				&	10.543  \\
+    & B		&	1				&	16.248  \\
+$\vdots$ & $\vdots$ & $\vdots$ & $\vdots$  \\
 \bottomrule
 \end{tabular}\end{center}\end{table}
 
 \subsubsection{Power Analysis}
+
+%I am grateful for Dr. Roger Day's expertise and assistance in generating a power analysis. 
+Little consensus exists on the appropriate sample size for usability evaluations. While some researchers in the HCI domain acknowledge the attribution of parameters for a power analysis are little more than a best guess\cite{Virzi:1992ve,Lewis:1994ly,Turner:2006zr,Nielsen:1993ys}, I feel ignoring the problem and employing a heuristic is functionally equivalent. Thyvalikakath et al. (2008) argue:
+\begin{quote}
+\small{``We chose five participants per group because this number is considered adequate for usability testing as evidenced in the usability engineering literature Thyvalikakath\cite{Nielsen1994Enhancing-the-e}.''}
+\end{quote}
+\noindent Nielsen offers no guidance on sample size in the cited article, however. Virzi (1992), Nielsen and Landauer (1993), and Lewis (1994) have published influential articles on the topic of sample size in usability testing. In these articles, the authors presented a mathematical model of problem discovery rates in usability testing. Using the problem discovery rate model, they showed that it was possible to determine the sample size needed to uncover a given proportion of problems in an interface during one test. The authors presented empirical evidence for the models and made several important claims:
+\begin{itemize}
+\item{Most usability problems are detected with the first three to five subjects.}\item{Running additional subjects during the same test is unlikely to reveal new information.}\item{Return on investment (ROI) in usability testing is maximized when testing with small groups using an iterative test-and-design methodology.}
+\end{itemize}Nielsen and Landauer (1993) extended Virzi’s (1992) original findings and reported case studies that supported their claims for needing only small samples for usability tests. They and Lewis (1994) identified important assumptions about the use of the formula for estimating problem discovery rates.
+
+After discussion with Dr. Roger Day, we arrived at two methods for determining the needed sample size to ensure adequate statistical power for the analysis of results. The first method assumes task completion times will be normally distributed and simulates times with the \textsf{R} command \texttt{rnorm()} using the parameters:
 
 \newpage
 
@@ -274,6 +287,17 @@ B		&	1				&	16.248  \\
 \end{center}
 \caption{Screenshot of EagleSoft's v16.0 user interface.}
 \end{figure}
+
+\newpage
+
+\subsection{Screen controls}
+\label{controls}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=\textwidth]{controls.png}
+\end{center}
+\caption{Charting icons for hard-tissue findings and procedures in Dentrix v 10.0.36.0, EagleSoft v 10.0, SoftDent v 10.0.2, and PracticeWorks v 5.0.2 \cite{Thyvalikakath2007Heuristic-evalu}.}\end{figure}
+
 
 \newpage
 
