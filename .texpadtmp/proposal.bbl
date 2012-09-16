@@ -128,8 +128,8 @@ TK~Schleyer, H~Spallek, and P~Hernandez.
 
 \bibitem{Salvucci2009Toward-a-unifie}
 DD~Salvucci, NA~Taatgen, and PB~Jelmer.
-\newblock Toward a unified theory of the multitasking continuum: from
-  concurrent performance to task switching, interruption, and resumption.
+\newblock {Toward a unified theory of the multitasking continuum: From
+  concurrent performance to task switching, interruption, and resumption}.
 \newblock In {\em Proceedings of the 27th international conference on Human
   factors in computing systems}, CHI '09--Boston, MA, pages 1819--28, New York,
   NY, 2009. ACM.
@@ -333,5 +333,11 @@ J~Nielsen and T~Landauer.
 \newblock In {\em {Proceedings of the INTERACT '93 and CHI '93 conference on
   Human factors in computing systems}}, CHI '93, pages 206--213, New York, NY,
   1993. ACM.
+
+\bibitem{Ogle:2012qf}
+DH~Ogle.
+\newblock {Simulation of power calculation in 1-sample mean problems}.
+\newblock \\{RForge: http://www.rforge.net/doc/packages/NCStats/powerSim.html},
+  September 2012.
 
 \end{thebibliography}
