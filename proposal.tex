@@ -8,7 +8,7 @@
 \usepackage{layouts}
 \usepackage{enumerate}
 \usepackage{hyperref}%need to maker hyperlinks
-\usepackage{appendix}
+\usepackage[toc,page,titletoc,header,title]{appendix}
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
 %\newcommand*{\marginnoteleftadjust}{1}
@@ -97,8 +97,8 @@ Tablets offer several advantages over traditional desktop PCs in clinical use. B
 Tablets make ideal devices for which to design interfaces for fast task completion time. Because their screen size is small and users make input choices with their fingers, buttons must be large. Most tablet devices will not discriminate capacitive touch with less than 8--9mm surface area. Further, because tablet screen real estate is limited, one must carefully consider the interface elements and sequence of interactions. This economy of choice requires a tablet-based interface to be well adapted to user tasks and goals. Thus, given a larger button size on a smaller screen, Fitts's law would suggest tablets as a logical platform choice.
 
 Some remain skeptical of the virtues of tablet computers in clinical use\cite{Kaneshige2011iPad-in-Healthc,Mashman:2011uq} and, compared to the medical literature, few investigators have studied tablet use by the dental team\cite{Frank2010IPad--tool-or-t}. Applying the insights from medical informatics research to dental problems presumes exchangeability of the domains. This may not be the case (Table 1).
-\begin{table}[h!]
-	\caption{Summary comparison of differences across medicinal and dental domains. Because dental patients are usually less sick, the tablet interface needs fewer input controls. Because the number of encounters per day is lower and dental clinicians need to cover a smaller physical area, tablet devices are ideal (instead of say a smartphone). Because the number of diagnoses is small and therapies per diagnoses large, several rule-based functions could help generate treatments from problems saving time.}
+\begin{table}[!t]
+	\caption{Summary comparison of differences across medicinal and dental domains.}
 	\begin{center}
 	\ra{1.3}
 \begin{tabular}{l  l  l}
@@ -114,7 +114,7 @@ No. of therapies per diagnoses	&	Many 	&  Few       \\
 No. of initial visit artifacts	&	Many 	&  Few       \\
 \bottomrule
 \end{tabular} \end{center} \end{table}
-A key difference to note is the small number of diagnoses in dentistry compared to medicine; dentists cover a smaller portion of the body compared to physicians. But for each diagnoses there are a larger number of choices for treatment. One might explain this difference by pointing to the larger role patient preferences play in dental treatment planning\cite{Kay1992Restorative-tre} or the smaller role of evidence-based practice in dentistry compared to medicine\cite{Tellez-2011-Sealants}. Another key difference is ergonomic: physicians stand or sit bedside while the dental ergonomic is unique. However, given the success enjoyed by tablets in complex medical settings, I remain optimistic about tablet performance in the dental operatory. Creating a usable and useful interface for the tablet is a separate consideration.
+A key difference to note is the small number of diagnoses in dentistry compared to medicine; dentists cover a smaller portion of the body compared to physicians. But for each diagnoses there are a larger number of choices for treatment. One might explain this difference by pointing to the larger role patient preferences play in dental treatment planning\cite{Kay1992Restorative-tre} or the smaller role of evidence-based practice in dentistry compared to medicine\cite{Tellez-2011-Sealants}. Another key difference is ergonomic: physicians stand or sit bedside while the dental ergonomic is unique. Because dental patients are usually less sick, the tablet interface needs fewer input controls. And because the number of diagnoses is small and therapies per diagnoses large, several rule-based functions could help generate treatments from problems saving time. Given the success enjoyed by tablets in complex medical settings, I remain optimistic about tablet performance in the dental operatory. Creating a usable and useful interface for the tablet is a separate consideration.
 
 Regarding screen design, Thyvalikakath, et al. (2008) recognized the disconnect between task flow and screen design in dental CPRs ahead of a formal modeling study. Several topical conclusions the 2008 comparative usability study include: \begin{itemize}
 \item Users should be able to identify their treatment preferences and software should support that approach.
@@ -284,8 +284,10 @@ After varying the parameters and running the experiment 2,000 times for each set
 \bibliography{Master}}
 \newpage
 
+\addappheadtotoc
 \appendix
 %\renewcommand\thesection{Appendix \Alph{section}}
+
 
 \section{CPR Screenshots}
 \label{SS}

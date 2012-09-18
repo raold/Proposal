@@ -11,6 +11,7 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Instruments}{16}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}Power Analysis}{17}{subsubsection.3.2.2}
 \contentsline {section}{\numberline {4}Proposed Timeline}{20}{section.4}
+\contentsline {section}{Appendices}{25}{section*.9}
 \contentsline {section}{\numberline {A}CPR Screenshots}{25}{appendix.A}
 \contentsline {subsection}{\numberline {A.1}Dentrix}{25}{subsection.A.1}
 \contentsline {subsection}{\numberline {A.2}Dentrix user mouse tracking data}{26}{subsection.A.2}
