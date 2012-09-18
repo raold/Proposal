@@ -6,9 +6,9 @@
 \usepackage{booktabs}
 \usepackage{chngpage}
 \usepackage{layouts}
-\usepackage{marginnote}
+\usepackage{enumerate}
 \usepackage{hyperref}%need to maker hyperlinks
-\usepackage[toc,page]{appendix}
+\usepackage{appendix}
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
 %\newcommand*{\marginnoteleftadjust}{1}
@@ -17,16 +17,20 @@
 
 \begin{document}
 
-\title{Master's thesis proposal [rev\_4.4]} %textwidth: \printinunitsof{cm}\prntlen{\textwidth}}
+\title{Master's thesis proposal [rev\_4.5]} %textwidth: \printinunitsof{cm}\prntlen{\textwidth}}
 \author{\normalsize Richard Oldham, DDS \vspace{7pt} \\ 
 		\small University of Pittsburgh \vspace{-2pt} \\
 		\small Department of Biomedical Informatics}
 \maketitle
 
-
 \begin{abstract}
 The benefits of Computerized Patient Records (CPRs) are well documented. Yet current dental CPRs inadequately support chairside use as evinced in low adoption rates for operatory computers. If dental professionals have any hope of realizing the advantages CPRs offer, information systems must adapt to their workflow and not \textit{vice versa}. To that end, research suggests tablet devices hold promise as an alternative to traditional desktop PCs' ergonomic shortcomings in the clinical environment. Designing a goal and task specific tablet-based treatment planning interface may help bridge the adoption gap between office and chairside computer use in dentistry. Evaluation can determine if users are faster, more successful, less error prone, or more subjectively satisfied with the tablet application over traditional CPRs.
 \end{abstract}
+
+\setcounter{tocdepth}{4}
+\tableofcontents
+\listoftables
+\newpage
 
 \section{Background}
 First, I summarize applicable findings from usability and informatics research. Next, I discuss a user model for treatment planning in dentistry. Lastly, I discuss conclusions and potential solutions.
@@ -161,52 +165,45 @@ Following the generation of a treatment plan (or plans), the provider next discu
 % fractional factorial
 % NOT crossover
 
-Dsesigning a novel tablet interface lends itself well to the evaluation process. Were I to evaluate only the interfaces, there would no advantage to use of a smaller device. Subjects could just as easily evaluate the novel interface on a desktop PC alongside a conventional CPR. Therefore, I propose a two stage evaluation using fractional factorial design. For the vector of participants of length $n$, each participant $p$ is tasked with entering one of two comparably difficult patient cases $c_{1,2}$ into the conventional CPR and tablet system. If Bob were assigned to enter $c_1$ into Dentrix, he would then enter $c_2$ into the tablet system. For the next participant, Alice, the case assignment switches (see example results below). The design is fractional factorial because not every combination of cases and methods will be administered for each subject in order to avoid learning effects from entering the same patient case twice. This experiment design is well suited to comparing the relative efficiency of data entry across the tablet and conventional CPR because of within-subjects comparison. Each user must use both methods of data input and thus acts as their own control when comparing to an alternative. After gathering the data, I can retrospectively examine the impact of case selection on task completion time. Significant effort will be made to select two patient cases of equal difficulty and comprehensiveness in order to minimize the case effect.
+Dsesigning a novel tablet interface lends itself well to the evaluation process. Were I to evaluate only the interfaces, there would no advantage to use of a smaller device. Subjects could just as easily evaluate the novel interface on a desktop PC alongside a conventional CPR. Therefore, I propose a two stage evaluation using fractional factorial design. For the vector of participants of length $n$, each participant $p$ is tasked with entering one of two comparably difficult patient cases $c_{1,2}$ into the conventional CPR and tablet system. If Bob were tasked with entering $c_1$ into Dentrix, he would then enter $c_2$ into the tablet system. For the next participant, Alice, the case assignment switches. The design is fractional factorial because not every combination of cases and methods will be administered for each subject in order to avoid learning effects from entering the same patient case twice. This experiment design is well suited to comparing the relative efficiency of data entry across the tablet and conventional CPR because of within-subjects comparison. Each user must use both methods of data input and thus acts as their own control when comparing to an alternative. After gathering the data, I can examine the relative impact of case selection, person, and data input method on task completion time and error rate. Significant effort will be made to select two patient cases of equal difficulty and comprehensiveness in order to minimize the case effect on variance of task completion time and error rate.
 
 A second evaluation, using the same design but different setting, can determine the relative ergonomic advantages to a tablet device. Subjects will sit in a dental operatory and receive paper artifacts to enter each system. Using video recording, I can measure subject motion over time and determine the relative efficiency of each device in the physical environment.
 
 \begin{table}[h!b]
 \label{evaldesign}
-\caption{Proposed within-subjects evaluation design using a tablet-based prototype and conventional CPR for comparison}
+\caption{Proposed two part within-subjects evaluation design using a tablet-based prototype and conventional CPR for comparison}
 	\begin{center}
 	\ra{1.3}
-\begin{tabular*}{\textwidth}{p{1.9cm}p{2cm}p{2cm}p{5cm}}  
+\begin{tabular*}{\textwidth}{p{1.9cm}p{2cm}p{1.9cm}p{5.1cm}}  
 %l  l  l}{|p{1cm}|p{3cm}||l}
 \toprule
 \textbf{Evaluation} & \textbf{Users} & \textbf{Setting} & \textbf{Design} \\
 \midrule
-A & Na\"{i}ve with 30 minutes of training & Lab-based & Users sit at a desk in `clean room' enter one task set per system; tests interface with time \vspace{4pt}\\ 
+Usability test & Na\"{i}ve with 30 minutes of training & Lab-based & Users sit at a desk in `clean room' enter one task set per system; tests interface with time \vspace{4pt}\\ 
 
-B & Na\"{i}ve with 30 minutes of training & Clinical & Users sit in a clinical environment enter one task set per system; tests interface \& ergonomic with time \& motion \\
+Function study & Na\"{i}ve with 30 minutes of training & Clinical & Users sit in a clinical environment enter one task set per system; tests interface \& ergonomic with time \& motion \\
 \bottomrule
 \end{tabular*} \end{center}\end{table}
 
-Evaluation of the tablet application requires comparing it to an alternative. Two logical points of comparison are the most popular CPRs in private practice: Dentrix and EagleSoft. Vendors have granted access to these CPRs to the CDI and using them for the purposes of evaluation should present no challenges.
+Evaluation of the tablet application requires comparing it to an alternative. Two logical points of comparison are the most popular CPRs in private practice: Dentrix and EagleSoft. Vendors have granted the CDI access to these CPRs and using one of them for the purposes of evaluation should present no challenges.
 
-Similar to Thyvalikakath, et al. (2008), summative measures like task completion success rates provide a valuable evaluation metric. Task completion time (if successful) and subjective user satisfaction are also useful\cite{Chin1998Development-of-}. Task completion time can be simply measured with a stop watch by an observer. Subjective user satisfaction could be measured through a survey administered after each user completes the task set on each system. By using within-subjects comparison the effect of user familiarity with tablet devices and the traditional CPR can be minimized.
-
-One important tradeoff to consider is fidelity to real-world use versus ease of evaluation. Setting up a mock clinic with myself (or someone else) acting as a patient would provide a more realistic environment but may bias the evaluation if the primary investigator serves also as the mock patient. Alternatively, several na\"{i}ve users could complete a common task set using the tablet application and an alternative.
-
-As previously described, the UCD approach to development is ideally suited to the proposed research. The University of Pittsburgh's Center for Dental Infromatics and School of Dental Medicine can provide ready access to potential participants for design feedback ahead of the formal evaluation. The purpose of this feedback is to confirm the design specification and to maximize application usability. Depending on the results of this feedback, one or more rounds of iteration may be necessary.
+As previously described, the UCD approach to development is ideally suited to the proposed research. The University of Pittsburgh's Center for Dental Informatics and School of Dental Medicine can provide ready access to potential participants for design feedback ahead of the formal evaluation. This feedback could take the form of expert heuristic inspection or small-scale usability tests. The purpose of this feedback is to confirm the design specification and implementation. Depending on the results of this feedback, one or more rounds of iteration may be necessary.
 
 \subsubsection{Instruments}
-\begin{itemize}
-\item{Task completion success}
-\subitem{Logical summative measure for overall usability}
-\subitem{Measured by determination of user completing the task within a specified time range (say 10 minutes), regardless of accuracy of the input.}
 
-\item{Task completion time if successful}
-\subitem{Useful metric because of quantitative nature allowing statistical model inspection of the relative effects of the method, case, and subject on the task completion time}
-\subitem{Measured with a stop watch by observer}
+\begin{enumerate}[(a)]
+\item{\textit{Task completion success}}\\
+Logical summative measure for overall usability measured by determination of user completing the task within a specified time range (say 10 minutes), regardless of accuracy of the input.
 
-\item{Subjective user satisfaction}
-\subitem{One of the only means of measuring user preferences across data input methods}
-\subitem{Measured through survey of users with calibrated instrument}
+\item{\textit{Task completion time, if successful}}\\
+Useful metric because of quantitative nature allowing statistical modeling of the relative effects of the method, case, and subject on the task completion time. Useful for comparing data input speed as measured with a stop watch by observer.
 
-\item{Error rate}
-\subitem{Also quantitative measure, if secondary to task completion time, useful for gauging effectiveness of user input rather than speed}
-\subitem{Measured through match of paper artifacts to electronic records}
-\end{itemize}
+\item{\textit{Subjective user satisfaction}}\\
+One of the only means of measuring user preferences across data input methods. Measured through survey of users with a validated instrument, of which there are many\cite{Chin1998Development-of-, Sittig1999Evaluating-phys, Wixom:2005fk, Han:2004uq,Kettinger:1994vn,Aladwani:2002kx}.
+
+\item{\textit{Error rate}}\\
+Also quantitative measure, if secondary to task completion time because users are expected to finish the data input tasks but not expected to commit errors. Useful for gauging effectiveness or quality of user input. Measured through match of paper artifacts to electronic records as determined by observer with domain expertise.
+\end{enumerate}
 
 
 
@@ -214,45 +211,42 @@ As previously described, the UCD approach to development is ideally suited to th
 \subsubsection{Power Analysis}
 
 %I am grateful for Dr. Roger Day's expertise and assistance in generating a power analysis. 
-Little consensus exists on the appropriate sample size for usability evaluations\cite{Virzi:1992ve,Lewis:1994ly,Turner:2006zr,Nielsen:1993ys}. While some researchers in the HCI domain acknowledge parameter settings for a power analysis are little more than a best guess, the experiment design makes use of quantitative measurements. Because of this, we can use generalized linear models to simulate the data and determine power accordingly. Thyvalikakath et al. (2008) argue:
+Little consensus exists on the appropriate sample size for usability evaluations\cite{Virzi:1992ve,Lewis:1994ly,Turner:2006zr,Nielsen:1993ys}. While some researchers in the HCI domain acknowledge parameter settings for a power analysis are little more than a best guess, we concluded an inspection of the literature and effort towards sample size determination would be worthwhile. The experiment design makes use of quantitative measurements and because of this we can use generalized linear models to simulate the data and determine power accordingly. Thyvalikakath et al. (2008) argue:
 \begin{quote}
-\small{``We chose five participants per group because this number is considered adequate for usability testing as evidenced in the usability engineering literature Thyvalikakath\cite{Nielsen1994Enhancing-the-e}.''}
+\small{``We chose five participants per group because this number is considered adequate for usability testing as evidenced in the usability engineering literature\cite{Nielsen1994Enhancing-the-e}.''}
 \end{quote}
 \noindent Nielsen offers no guidance on sample size in the cited article, however. 
 
-Virzi (1992), Nielsen and Landauer (1993), and Lewis (1994) have published influential articles on the topic of sample size in usability testing. In these articles, the authors presented a mathematical model of problem discovery rates in usability testing. Using the problem discovery rate model, they showed that it was possible to determine the sample size needed to uncover a given proportion of problems in an interface during one test. The authors presented empirical evidence for the models and made several important claims:
+Virzi (1992), Nielsen and Landauer (1993), and Lewis (1994) have published influential articles on the topic of sample size in usability testing. In these articles, the authors presented a mathematical model of problem discovery rates in usability testing. These models used the Poison distribution of rare events to simulate problem discovery rates. The authors determined it was feasible to determine the sample size needed to uncover a given proportion of problems in an interface during one test and presented empirical evidence for the models. Some important claims from these papers:
 \begin{itemize}
 \item{Most usability problems are detected with the first three to five subjects.}\item{Running additional subjects during the same test is unlikely to reveal new information.}\item{Return on investment (ROI) in usability testing is maximized when testing with small groups using an iterative test-and-design methodology.}
 \end{itemize}Nielsen and Landauer (1993) extended Virzi’s (1992) original findings and reported case studies that supported their claims for needing only small samples for usability tests. They and Lewis (1994) identified important assumptions about the use of the formula for estimating problem discovery rates.
 
-After discussion with Dr. Roger Day, we arrived at two methods for determining the needed sample size to ensure adequate statistical power for the analysis of results. The first method assumes task completion times will be normally distributed and simulates times with the \textsf{R} command \texttt{rnorm()} using the parameters: \texttt{n\_hypoth <-rnorm(n=20, mean=17.45, sd=5.13)} and \texttt{a\_hypoth <- rnorm(n=20, mean=14.83, sd=4.35)}. After construction of the \texttt{data.frame}, we have:
+After discussion with Dr. Roger Day, we arrived at two methods for determining the needed sample size: simulation and heuristics. To ensure adequate statistical power, I include both (see \ref{poweranalysis}). While it is plain to see the number used in the analysis were made up, the important determination is not the values used but the sensitivity of the result to changes in assumption. Other assumptions, by way of parameter settings, are detailed below:
 
-\begin{center}
-\begin{verbatim}
-> head(study_frame)  Person Method Case             Time1      1      A    1 13.25278875679322      1      B    2 12.77499065356963      2      A    2 21.24688567941464      2      B    1 19.20139177807235      3      A    1 13.29425979497596      3      B    2 8.16402213811822
-\end{verbatim}
-\end{center}
-\noindent With the simulated data we can now perform the power analysis. First, I generated a generalized linear model using the Method (tablet or conventional CPR), Case (1 or 2), and Person to predict task completion time: 
-\begin{verbatim}> model <- glm(as.numeric(Time) ~ Method + Case + Person, 
-           data=study_frame)
-> summary(model)
+\begin{itemize}
+\item{Test statistic: for task completion time and error rates the sample means from each method are used to determine significance}
+\item{Sources of variance in task completion time: built into the model are assumptions about case, method, person, and measurement (or unsystematic) variance}
+\item{Model distributions: I use the normal distribution, centered at the task completion mean for each group and the Poison distribution with lambda equal to mean error rates for each group}
+\item{Effect size: the measured difference in task completion time and error rate across methods}
+\end{itemize}
 
-Deviance Residuals:     Min       1Q   Median       3Q      Max  -16.600   -3.275    0.000    3.275   16.600  Coefficients:            Estimate Std. Error t value Pr(>|t|)   (Intercept)    8.100      7.924   1.022  0.32023   MethodB       -4.800      3.379  -1.421  0.17252   Case2          1.600      3.379   0.474  0.64153   Person10      14.000     10.685   1.310  0.20658   Person11      14.500     10.685   1.357  0.19154   Person12      12.500     10.685   1.170  0.25731   Person13       1.000     10.685   0.094  0.92647   Person14      22.000     10.685   2.059  0.05427 . Person15      27.000     10.685   2.527  0.02109 * Person16       7.000     10.685   0.655  0.52067   Person17      18.000     10.685   1.685  0.10932   Person18       7.000     10.685   0.655  0.52067   Person19      -4.000     10.685  -0.374  0.71251   Person2       21.000     10.685   1.965  0.06499 . Person20      16.500     10.685   1.544  0.13993   Person3       16.500     10.685   1.544  0.13993   Person4       11.000     10.685   1.029  0.31688   Person5       31.000      10.685   2.901  0.00952 **Person6       15.500     10.685   1.451  0.16408   Person7       24.000     10.685   2.246  0.03748 * Person8       14.500     10.685   1.357  0.19154   Person9       11.000     10.685   1.029  0.31688   ---Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 (Dispersion parameter for gaussian family taken to be 114.1667)    Null deviance: 5330  on 39  degrees of freedomResidual deviance: 2055  on 18  degrees of freedomAIC: 317.08Number of Fisher Scoring iterations: 2
+After varying the parameters and running the experiment 2,000 times for each setting, I determined the required effect size for statistically significance in values of $n < 40$ and power $\ge 0.80$ is between 15--17\%. This translates into a two to three minute time savings for a mean task completion time of 17 minutes.
 
-> study_aov <- aov(as.numeric(Time) ~ Method + Case + Person, 
-               study_frame)> summary(study_aov)
-\end{verbatim}
-\newpage
-\begin{verbatim}            Df Sum Sq Mean Sq F value Pr(>F)Method       1  230.4   230.4   2.018  0.173Case         1   25.6    25.6   0.224  0.642Person      19 3019.0   158.9   1.392  0.244Residuals   18 2055.0   114.2      
-\end{verbatim}
-
-\begin{figure}[h!b]
-\label{pwranal}
+\begin{figure}[h!t]
 \begin{center}
 \includegraphics[width=\textwidth]{pwranal1.png}
 \end{center}
-\caption{Plot of null and alternative distributions; the rejection region and the power region are highlighted allowing manipulation of the effect size, standard deviation, sample size, and alpha to determine the effect on power \cite{Ogle:2012qf}.} 
+\caption{Plot of null and alternative distributions; the rejection region and the power region are highlighted \cite{Ogle:2012qf}.}\label{pwranal} 
 \end{figure}
+
+\noindent Performing a two-way ANOVA on the simulated data yields: 
+\begin{verbatim}
+                  Df Sum Sq Mean Sq F value  Pr(>F)   Method             1   19.8   19.81   1.923 0.18454   Case               1    0.0    0.02   0.002 0.96339   Person            17  631.7   37.16   3.607 0.00682 **Residuals         16  164.8   10.30                   ---Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+\end{verbatim}
+\noindent The summary of ANOVA shows the greatest source of variance is the person followed by the method, which is consistent with the model parameters. Using the heuristic inspection method from the \texttt{NCStats} package, we can see a value of $18 \le n \le 20$ will provide power above 0.80 for liberal assumptions of variance (Figure \ref{pwranal}). An analysis similar to Turner (2006) could be performed on error rates. Given the even smaller amount of \textit{a priori} knowledge of expected error rates and the use of Poisson sampling, the results of such analysis would be less powerful than the results of task completion simulation.
+
+
 
 \section{Proposed Timeline}
 
@@ -279,6 +273,8 @@ Deviance Residuals:     Min       1Q   Median       3Q      Max  -16.600   -3.
   \item[257]{January}{Begin evaluation}
 \end{timeline}%% Needed comment
 
+\noindent Because I will be living in Virginia after January 2013, it is hard to predict the exact evaluation schedule. My aim is to complete the evaluation by the spring and complete the thesis by the summer.
+
 \vspace{20pt}
 
 \noindent \textit{Acknowledgements} I would like to thank Gerald Douglas, Harry Hochheiser, Titus Schleyer, and Roger Day for their invaluable input. This research made possible by the National Library of Medicine through grant 2T15LM007059-26.
@@ -289,7 +285,7 @@ Deviance Residuals:     Min       1Q   Median       3Q      Max  -16.600   -3.
 \newpage
 
 \appendix
-\renewcommand\thesection{Appendix \Alph{section}}
+%\renewcommand\thesection{Appendix \Alph{section}}
 
 \section{CPR Screenshots}
 \label{SS}
@@ -305,13 +301,13 @@ Deviance Residuals:     Min       1Q   Median       3Q      Max  -16.600   -3.
 
 \newpage
 
-\subsection{Mouse tracking of users trying to perform a common task in Dentrix}
+\subsection{Dentrix user mouse tracking data}
 \label{dentrixusabil}
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width=\textwidth]{dentrixuse.png}
 \end{center}
-\caption{Screenshot showing a user’s actions while trying to record tooth no. 28 as missing while using the Dentrix v11. The correct sequence consists of the following left mouse clicks: “tooth no. 28,” “Conditions,” “Missing tooth,” “OK” and “EX”\cite{Thyvalikakath2008A-usability-eva}.}
+\caption{Screenshot showing a user’s actions while trying to record tooth no. 28 as missing while using the Dentrix v10.0.36.0. The correct sequence consists of the following left mouse clicks: “tooth no. 28,” “Conditions,” “Missing tooth,” “OK” and “EX”\cite{Thyvalikakath2008A-usability-eva}.}
 \end{figure}
 
 \newpage
@@ -383,6 +379,68 @@ Deviance Residuals:     Min       1Q   Median       3Q      Max  -16.600   -3.
 \end{center}
 \caption{Chair-delivery physical model for a right-handed operator.}
 \end{figure}
+
+\section{Power Analysis}
+\label{poweranalysis}
+\begin{verbatim}
+# Begin model parameters
+Nsubjects = 18
+# Mean task completion time for H0 and HA
+method_effect= c(A=18, B=15)
+# Lambda mean error rates for H0 and HA;
+lambda = c(A=1, B=0.5)
+
+# Begin sources of variance
+method_sd = c(A=5, B=4)
+person_effect = rnorm(Nsubjects, 0, 4)
+# KEY ASSUMPTION: variance due to case?
+case_effect = c(1,0)
+# All other sources of variance
+unsystematic_sd = 3
+# End model parameters
+
+## Construct data frame(person, case, method); no explicit use of as.factor 
+for subjects and case due to needing to select only a fraction of factorial
+(tempOK).
+temp = expand.grid(1:Nsubjects, 1:2, c("A","B"))
+names(temp) = c("Person","Case","Method")
+
+# Select fraction of total comb
+tempOK = temp$Person + temp$Case + match(temp$Method, unique(temp$Method))
+temp = temp[ (tempOK %% 2)==0 , ]
+
+# Generate model task completion times
+temp$Time = case_effect[temp$Case] + person_effect[temp$Person] + 
+  method_effect[temp$Method] + rnorm(1, 0, method_sd[temp$Method]) +
+  rnorm(nrow(temp), 0, unsystematic_sd)
+
+# Generate error rates
+temp$Error = rpois(n=Nsubjects, lambda=lambda)
+
+# Clean up and assign temp to dframe
+dframe = temp[with(temp, order(Person, Method)), ]
+row.names(dframe) = 1:nrow(temp)
+
+# Simulate experiment, looping over dframe H0 and HA xNREPS
+NREPS = 2000
+Nsubjects = 18
+
+pValues = sapply(1:NREPS, function(ignoreMe) {
+  dframe = expand.grid(as.factor(1:2), c("A","B"), as.factor(1:Nsubjects))
+  names(dframe) = c("Case","Method","Person")
+  dframeOK = as.numeric(dframe$Person) + as.numeric(dframe$Case) + 
+    as.numeric(match(dframe$Method, unique(dframe$Method)))
+  dframe = dframe[ (dframeOK %% 2)==0 , ]
+  dframe$Time = case_effect[dframe$Case] + person_effect[dframe$Person] + 
+    method_effect[dframe$Method] + rnorm(1, 0, method_sd[dframe$Method]) + 
+    rnorm(nrow(dframe), 0, unsystematic_sd)
+  model <- glm(Time ~ Method + Case + as.factor(Person), data=dframe)
+  summary(model)$coef["MethodB", "Pr(>|t|)"]
+}
+)
+summary(pValues)
+mean(pValues < 0.05)
+\end{verbatim}
 
 
 \end{document}	 	       
