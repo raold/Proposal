@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (TeX Live 2011) (format=xelatex 2012.8.26)  18 SEP 2012 18:18
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (TeX Live 2011) (format=xelatex 2012.8.26)  19 SEP 2012 14:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -506,151 +506,109 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: papervscomp.jpg Graphic file (type QTm)
  <use  "papervscomp.jpg" >
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6] [7] [8] [9] [10] [11] [12] [13]
-Overfull \hbox (0.95511pt too wide) in paragraph at lines 156--157
+[6] [7] [8] [9] [10] [11] [12] [13] [14]
+Overfull \hbox (0.95511pt too wide) in paragraph at lines 185--186
 []\OT1/cmr/m/n/10.95 The abil-ity to au-to-mat-i-cally map a list of treat-ment
 s, based on provider
  []
 
-[14]
-Overfull \hbox (4.58286pt too wide) in paragraph at lines 180--180
+[15]
+Overfull \hbox (4.58286pt too wide) in paragraph at lines 209--209
 []\OT1/cmr/bx/n/10.95 Evaluation| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
 []\OT1/cmr/m/n/10.95 Usability
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 182--182
+Underfull \hbox (badness 1924) in paragraph at lines 211--211
 []\OT1/cmr/m/n/10.95 Na^^?^^Pve with
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 182--182
+Underfull \hbox (badness 1852) in paragraph at lines 211--211
 \OT1/cmr/m/n/10.95 30 min-utes
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 182--183
+Underfull \hbox (badness 1132) in paragraph at lines 211--212
 \OT1/cmr/m/n/10.95 sys-tem; tests in-ter-face with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
 []\OT1/cmr/m/n/10.95 Function
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 184--184
+Underfull \hbox (badness 1924) in paragraph at lines 213--213
 []\OT1/cmr/m/n/10.95 Na^^?^^Pve with
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 184--184
+Underfull \hbox (badness 1852) in paragraph at lines 213--213
 \OT1/cmr/m/n/10.95 30 min-utes
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 177--186
+Underfull \hbox (badness 10000) in alignment at lines 206--215
 [][][][]
  []
 
-[15] [16]
-Missing character: There is no ’ in font cmr10!
- [17]
+[16] [17] [18]
 File: pwranal1.png Graphic file (type QTm)
- <use  "pwranal1.png" >
-Missing character: There is no ‘ in font cmtt10!
-Missing character: There is no ’ in font cmtt10!
-Missing character: There is no ‘ in font cmtt10!
-Missing character: There is no ’ in font cmtt10!
-Missing character: There is no ‘ in font cmtt10!
-Missing character: There is no ’ in font cmtt10!
-Missing character: There is no ‘ in font cmtt10!
-Missing character: There is no ’ in font cmtt10!
-Missing character: There is no ‘ in font cmtt10!
-Missing character: There is no ’ in font cmtt10!
- [18] [19]
-Overfull \hbox (23.49385pt too wide) in paragraph at lines 289--290
-\OT1/cmr/m/n/10.95 made pos-si-ble by the Na-tional Li-brary of Medicine throug
-h grant 2T15LM007059-
- []
-
-[20]
+ <use  "pwranal1.png" > [19] [20] [21]
 (/Users/arthur/Dropbox/1_share/BIOINF 3990 - Ind Study/Proposal/.texpadtmp/prop
-osal.bbl [21]
+osal.bbl [22]
 Underfull \hbox (badness 1688) in paragraph at lines 159--163
 []\OT1/cmr/m/n/9 E Kalen-de-rian, RL Ra-moni, JM White, ME Schoonheim-Klein, PC
  Stark,
  []
 
-[22] [23]) [24]
+[23] [24]) [25]
 File: dentrixss1.png Graphic file (type QTm)
- <use  "dentrixss1.png" > [25]
+ <use  "dentrixss1.png" > [26]
 File: dentrixuse.png Graphic file (type QTm)
- <use  "dentrixuse.png" >
-Missing character: There is no ’ in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no ” in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no ” in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no ” in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no ” in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no ” in font cmr10!
-Missing character: There is no ’ in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no ” in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no ” in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no ” in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no ” in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no ” in font cmr10!
- [26]
+ <use  "dentrixuse.png" > [27]
 File: esss.png Graphic file (type QTm)
 
-<use  "esss.png" > [27]
+<use  "esss.png" > [28]
 File: controls.png Graphic file (type QTm)
- <use  "controls.png" > [28]
+ <use  "controls.png" > [29]
 File: wireframe.png Graphic file (type QTm)
  <use  "wireframe.png" >
-[29]
+[30]
 File: artifactmodel.png Graphic file (type QTm)
- <use  "artifactmodel.png" > [30]
+ <use  "artifactmodel.png" > [31]
 File: phymodel1.png Graphic file (type QTm)
- <use  "phymodel1.png" > [31]
+ <use  "phymodel1.png" > [32]
 File: phymodel2.png Graphic file (type QTm)
 
 <use  "phymodel2.png" >
 File: phymodel3.png Graphic file (type QTm)
- <use  "phymodel3.png" > [32] [33] [34]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 457.
- [35]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 457.
+ <use  "phymodel3.png" > [33] [34] [35]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 496.
+ [36]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 496.
 
 (/Users/arthur/Dropbox/1_share/BIOINF 3990 - Ind Study/Proposal/.texpadtmp/prop
 osal.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 457.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 457.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 457.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 496.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 496.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 496.
  ) 
 Here is how much of TeX's memory you used:
- 7970 strings out of 494123
- 117564 string characters out of 3151761
- 208897 words of memory out of 3000000
- 11167 multiletter control sequences out of 15000+200000
+ 7972 strings out of 494123
+ 117582 string characters out of 3151761
+ 208169 words of memory out of 3000000
+ 11169 multiletter control sequences out of 15000+200000
  11912 words of font info for 42 fonts, out of 3000000 for 9000
  1018 hyphenation exceptions out of 8191
- 36i,10n,45p,2075b,441s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,10n,45p,2081b,441s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on /Users/arthur/Dropbox/1_share/BIOINF 3990 - Ind Study/Proposa
-l/.texpadtmp/proposal.pdf (35 pages).
+l/.texpadtmp/proposal.pdf (36 pages).

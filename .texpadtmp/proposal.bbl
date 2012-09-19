@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{Schleyer2006Clinical-Comput}
+TK~Schleyer, TP~Thyvalikakath, H~Spallek, MH~Torres-Urquidy, P~Hernandez, and
+  J~Yuhaniak.
+\newblock Clinical computing in general dentistry.
+\newblock {\em J Am Med Inform Assoc}, 13:344--52, 2006.
+
 \bibitem{Chasteen1992A-computer-data}
 J~Chasteen.
 \newblock A computer database approach for dental practice.
@@ -7,8 +13,8 @@ J~Chasteen.
 
 \bibitem{Eisne1993The-computer-ba}
 J~Eisner, J~Chasteen, T~Schleyer, and C~Feldman.
-\newblock {\em The computer based oral health record: a new foundation for oral
-  health information systems}.
+\newblock {\em {The computer based oral health record: A new foundation for
+  oral health information systems}}.
 \newblock American Fund for Oral Health, Chicago, IL, 1993.
 
 \bibitem{Thompson2004The-Decade-of-H}
@@ -30,12 +36,6 @@ T~Schleyer, U~Mattsson, R~N\'{i}~R\'{i}ord\'{a}in, V~Brailo, M~Glick, RB~Zain,
 \newblock Advancing oral medicine through informatics and information
   technology: a proposed framework and strategy.
 \newblock {\em Oral Dis}, 17 Suppl 1:85--94, Apr 2011.
-
-\bibitem{Schleyer2006Clinical-Comput}
-TK~Schleyer, TP~Thyvalikakath, H~Spallek, MH~Torres-Urquidy, P~Hernandez, and
-  J~Yuhaniak.
-\newblock Clinical computing in general dentistry.
-\newblock {\em J Am Med Inform Assoc}, 13:344--52, 2006.
 
 \bibitem{Levine2010}
 N~Levine.
@@ -110,7 +110,7 @@ AF~Rose, JL~Schnipper, ER~Park, EG~Poon, Q~Li, and B~Middleton.
 \newblock {\em J Biomed Inform}, 38(1):51--60, 2005.
 
 \bibitem{Cockerell:2009fk}
-Tom Cockerell.
+T~Cockerell.
 \newblock {Patient Records, Letter to the Editor}.
 \newblock {\em J Am Dent Assoc}, 140(4):402--4, April 2009.
 
@@ -227,7 +227,7 @@ YC~Lu, Y~Xiao, A~Sears, and JA~Jacko.
 \newblock {\em Int J Med Inform}, 74(5):409--22, Apr 2005.
 
 \bibitem{Seneviratne2010Improving-stylu}
-Nilanthi Seneviratne and Beryl Plimmer.
+N~Seneviratne and B~Plimmer.
 \newblock Improving stylus interaction for emedical forms.
 \newblock In {\em Proceedings of the 22nd Conference of the Computer-Human
   Interaction Special Interest Group of Australia on Computer-Human
@@ -241,7 +241,7 @@ E~Cole, ED~Pisano, GJ~Clary, D~Zeng, M~Koomen, CM~Kuzmiak, BK~Seo, Y~Lee, and
 \newblock {\em Int J Med Inform}, 75(10-11):722--29, 2006.
 
 \bibitem{Kaneshige2011iPad-in-Healthc}
-Tom Kaneshige.
+T~Kaneshige.
 \newblock {iPad in Healthcare: Not So Fast}, Nov 2011.
 
 \bibitem{Mashman:2011uq}
@@ -298,7 +298,7 @@ CM~Johnson, TR~Johnson, and J~Zhang.
 \newblock {\em J Biomed Inform}, 38:75--87, 2005.
 
 \bibitem{Stefanac2006Treatment-Plann}
-Stephen~J. Stefanac and Samuel~P. Nesbit.
+SJ~Stefanac and SP~Nesbit.
 \newblock {\em Treatment Planning in Dentistry}.
 \newblock Mosby, St. Louis, 2nd edition, 2006.
 

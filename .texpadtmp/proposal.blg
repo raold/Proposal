@@ -4,14 +4,14 @@ The top-level auxiliary file: proposal.aux
 The style file: ../unsrt.bst
 Database file #1: ../Master.bib
 Warning--entry type for "Kaneshige2011iPad-in-Healthc" isn't style-file defined
---line 431 of file ../Master.bib
+--line 433 of file ../Master.bib
 Warning--empty booktitle in Thompson2004The-Decade-of-H
 Warning--empty booktitle in Nielsen1994Enhancing-the-e
 Warning--can't use both author and editor fields in Abras2004Encycolopeida-o
 Warning--can't use both volume and number fields in Turner:2006zr
 You've used 64 entries,
             1791 wiz_defined-function locations,
-            898 strings with 15017 characters,
+            898 strings with 14991 characters,
 and the built_in function-call counts, 15456 in all, are:
 = -- 1430
 > -- 631
